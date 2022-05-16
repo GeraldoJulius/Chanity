@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Chanity</string>
+    <string name="copyright">© Chanity</string>
+    <string name="signup">Signup</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="name">username</string>
+    <string name="title_signup_page">Ready to create your account?</string>
+    <string name="login">Login</string>
+    <string name="message_login_page">Welcome Back :)</string>
+    <string name="title_login_page">Welcome Back!</string>
+
+</resources>
