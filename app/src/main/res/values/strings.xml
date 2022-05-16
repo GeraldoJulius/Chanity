@@ -1,17 +1,23 @@
 <resources>
     <string name="app_name">Chanity</string>
-    <string name="copyright">© Chanity</string>
-    <string name="signup">Signup</string>
+    <string name="copyright">© 2022 Chanity</string>
     <string name="password">password</string>
     <string name="email">email</string>
     <string name="name">username</string>
     <string name="title_signup_page">Ready to create your account?</string>
-    <string name="login">Login</string>
     <string name="message_login_page">Welcome Back :)</string>
     <string name="title_login_page">Welcome Back!</string>
+
     <string name="splash_iv">SplashScreen</string>
     <string name="WelcomeTitle">Welcome To Chanity</string>
     <string name="RegisLogin">Please Register or Login First!</string>
     <string name="getstarted">GetStarted</string>
+
+    <string name="welcome_iv">Welcome Image</string>
+    <string name="title_welcome_page">Welcome to Chanity!</string>
+    <string name="reglog_tv">Please register or login first.</string>
+
+    <string name="signin">Sign In</string>
+    <string name="signup">Get Started</string>
 
 </resources>
