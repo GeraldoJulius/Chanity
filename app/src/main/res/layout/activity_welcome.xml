@@ -5,24 +5,26 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    tools:context=".WelcomeActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:contentDescription="@string/welcome_iv"
         app:layout_constraintBottom_toTopOf="@+id/guidelineHorizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/chanity"
-         />
+        app:layout_constraintVertical_bias="0.621"
+        app:srcCompat="@drawable/chanity" />
 
     <TextView
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="@string/WelcomeTitle"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -36,35 +38,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:text="@string/RegisLogin"
-        android:textSize="14sp"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
 
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="135dp"
+        android:layout_width="275dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/grey"
-        android:text="@string/login"
-        android:textColor="@color/navi"
+        android:text="@string/signin"
+        android:textColor="#29376D"
         app:layout_constraintBottom_toTopOf="@+id/copyrightTextView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signupButton"
-        app:layout_constraintVertical_bias="0.148" />
+        app:layout_constraintVertical_bias="0.083" />
 
     <Button
         android:id="@+id/signupButton"
-        android:layout_width="135dp"
+        android:layout_width="275dp"
         android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:backgroundTint="@color/navi"
-        android:text="@string/getstarted"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#29376D"
+        android:text="@string/signup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descTextView" />
@@ -75,7 +76,7 @@
         android:layout_height="64dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintGuide_percent="0.5"
+        app:layout_constraintGuide_percent="0.4"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -84,7 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/copyright"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"

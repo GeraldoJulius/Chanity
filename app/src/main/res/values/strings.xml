@@ -9,13 +9,12 @@
     <string name="title_login_page">Welcome Back!</string>
 
     <string name="splash_iv">SplashScreen</string>
-    <string name="WelcomeTitle">Welcome To Chanity</string>
-    <string name="RegisLogin">Please Register or Login First!</string>
+    <string name="WelcomeTitle">Welcome To Chanity!</string>
+    <string name="RegisLogin">Please register or login first.</string>
     <string name="getstarted">GetStarted</string>
 
     <string name="welcome_iv">Welcome Image</string>
     <string name="title_welcome_page">Welcome to Chanity!</string>
-    <string name="reglog_tv">Please register or login first.</string>
 
     <string name="signin">Sign In</string>
     <string name="signup">Get Started</string>
