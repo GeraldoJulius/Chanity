@@ -9,5 +9,6 @@
     <string name="login">Login</string>
     <string name="message_login_page">Welcome Back :)</string>
     <string name="title_login_page">Welcome Back!</string>
+    <string name="splash_iv">SplashScreen</string>
 
 </resources>
