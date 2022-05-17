@@ -8,6 +8,24 @@
     <string name="message_login_page">Welcome back :)</string>
     <string name="title_login_page">Welcome back!</string>
 
+    <string name="greeting">Welcome %s !</string>
+    <string name="home1">Check your own personality by taking the test.</string>
+    <string name="home2">The Big Five personality test measures the five personality factors that psychologists have determined are core to our personality makeup. The Five Factors of personality consists of:</string>
+    <string name="openness_title">Openness</string>
+    <string name="openness">How open a person is to new ideas and experiences.</string>
+    <string name="conscientiousness_title">Conscientiousness</string>
+    <string name="conscientiousness">How goal-directed, persistent and organized a person is.</string>
+    <string name="extraversion_title">Openness</string>
+    <string name="extraversion">How much a person is energized by the outside world.</string>
+    <string name="agreeableness_title">Agreeableness</string>
+    <string name="agreeableness">How much a person puts others interests and needs ahead of their own.</string>
+    <string name="neuroticism_title">Neuroticism</string>
+    <string name="neuroticism">How sensitive a person is to stress and negative emotional triggers.</string>
+    <string name="start_test">Start Test</string>
+
+    <string name="test1">Answer each question according to how well it describes you. </string>
+    <string name="get_result">Get Result</string>
+
     <string name="splash_iv">SplashScreen</string>
     <string name="WelcomeTitle">Welcome to Chanity!</string>
     <string name="RegisLogin">Please register or login first.</string>
@@ -17,5 +35,7 @@
     <string name="title_welcome_page">Welcome to Chanity!</string>
 
     <string name="signin">Sign In</string>
+    <string name="language">Change Language</string>
+    <string name="logout">Log Out</string>
 
 </resources>
