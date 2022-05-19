@@ -32,10 +32,29 @@
     // test
     <string name="test1">Answer each question according to how well it describes you. </string>
     <string name="get_result">Get Result</string>
+    <string name="question1">Worry about things</string>
+    <string name="question2">Make friends easily</string>
 
     // option menu
     <string name="language">Change Language</string>
     <string name="logout">Log Out</string>
     <string name="home">Home</string>
+    <string name="radio1">Very Inaccurate</string>
+    <string name="radio2">Inaccurate</string>
+    <string name="radio3">Neutral</string>
+    <string name="radio4">Accurate</string>
+    <string name="radio5">Very Accurate</string>
+    <string name="question3">Have a vivid imagination</string>
+    <string name="result_greeting">%s your primary trait is %s</string>
+    <string name="percentage_tv"><u>Percentage Result</u></string>
+    <string name="result_ocean">OCEAN Result</string>
+    <string name="percentage">%s{%}\n\n%s{%}\n\n%s{%}\n\n%s{%}\n\n%s{%}\n</string>
+
+    <string name="strengths">Strengths</string>
+    <string name="weaknesses">Weaknesses</string>
+
+    <string name="e_desc">The sub-traits of extraversion personality trait are: Friendly, gregarious, assertive, have high activity level, excitement-seeking and cheerful.</string>
+    <string name="e_strength">Tend to relate well to others.\nOften well-liked in their teams and offices.\nForm quick and easy friendships.\nTheir outgoing nature leads to effective group-work.\nUsually very determined, likely to take charge, and confident.</string>
+    <string name="e_weakness">May lack independence.\nCan sometimes make others uncomfortable.\nStruggle with keeping their emotions in check.\nMay be inconsiderate or sometimes socially unaware.\nOften unable to make analytical, emotionless judgements.</string>
 
 </resources>
