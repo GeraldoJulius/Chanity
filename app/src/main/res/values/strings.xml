@@ -48,13 +48,31 @@
     <string name="result_greeting">%s your primary trait is %s</string>
     <string name="percentage_tv"><u>Percentage Result</u></string>
     <string name="result_ocean">OCEAN Result</string>
-    <string name="percentage">%s{%}\n\n%s{%}\n\n%s{%}\n\n%s{%}\n\n%s{%}\n</string>
+    <string name="percentage">%s{%}\n\n%s{%}\n\n%s{%}\n\n%s{%}\n\n%s{%}</string>
 
+    <string name="desc">%s</string>
     <string name="strengths">Strengths</string>
+    <string name="strengths_tv">%s</string>
     <string name="weaknesses">Weaknesses</string>
+    <string name="weaknesses_tv">%s</string>
+
+    <string name="o_desc">The sub-traits of openness personality trait are: Imaginative, adventurous, have high emotionality, have high artistic interests, intelligent and liberalism.</string>
+    <string name="o_strength">Easy to collaborate with.\nCreative.\nLove to learn something new.\nOpen to diversity.\nGive great attention to mental imagery.</string>
+    <string name="o_weakness">Easily swayed.\nTheir ideas are often unconventional.\nMany of them are often unpredictable.\nTend to avoid positions that need to set rules and guidelines.\nTend to feel many emotions simultaneously which can lead to anxiety and depression.</string>
+
+    <string name="c_desc">The sub-traits of conscientiousness personality trait are: Well-organized, have strong sense of moral obligation, confident, achievement-striving, self-discipline and cautious.</string>
+    <string name="c_strength">Organized and always come into situations prepared.\nAttentive to detail.\nHardworking.\nRarely make impulsive or careless decisions.\nTend to pay attention to detail to make sure they deliver on their promises.</string>
+    <string name="c_weakness">Perfectionist.\nMay be excessively serious in some situations.\nInflexible.\nStruggle to be spontaneous.\nTend to have obsessive-compulsive disorder.</string>
 
     <string name="e_desc">The sub-traits of extraversion personality trait are: Friendly, gregarious, assertive, have high activity level, excitement-seeking and cheerful.</string>
     <string name="e_strength">Tend to relate well to others.\nOften well-liked in their teams and offices.\nForm quick and easy friendships.\nTheir outgoing nature leads to effective group-work.\nUsually very determined, likely to take charge, and confident.</string>
     <string name="e_weakness">May lack independence.\nCan sometimes make others uncomfortable.\nStruggle with keeping their emotions in check.\nMay be inconsiderate or sometimes socially unaware.\nOften unable to make analytical, emotionless judgements.</string>
 
+    <string name="a_desc">The sub-traits of agreeableness personality trait are: Have high trust with people, altruistic, good at cooperation, have high morality, modest and sympathetic.</string>
+    <string name="a_strength">Tend to get pleasure from taking care of people.\nGet along well with others.\nAre socially and emotionally intelligent.\nForm friendships easily.\nRefrain to judging people.</string>
+    <string name="a_weakness">Struggle to assert their wants, needs and preferences.\nStruggle in situations that require tough decision.\nTend to forget to plan their own advancement.\nOften likely to be taken advantage of.\nTend to overwork themselves due to an inability to delegate properly.</string>
+
+    <string name="n_desc">The sub-traits of neuroticism personality trait are: Anxiety, high anger level, depressed, have high self-consciousness, immoderate and vulnerable.</string>
+    <string name="n_strength">Sensitive and aware in a way that some others might not be.\nLikely to be the one who is always looking out for others.\nRealistic.\nHave high self-awareness.\nValue the safety of knowing what to expect over the risk of disappointment from trying to engage in unfamiliar and unproven ways.</string>
+    <string name="n_weakness">Dramatic changes in feelings.\nTend to be more anxious when they perceive the situation to be negative.\nTend to experience a lot of stress.\nOverly aware and sensitive about what others think of them.\nTend to self-doubt themselves.</string>
 </resources>
