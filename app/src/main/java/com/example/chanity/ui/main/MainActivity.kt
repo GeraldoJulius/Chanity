@@ -1,14 +1,18 @@
-package com.example.chanity
+package com.example.chanity.ui.main
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
-import androidx.appcompat.widget.Toolbar
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.preferencesDataStore
+import com.example.chanity.R
 import com.example.chanity.databinding.ActivityMainBinding
-import com.example.chanity.databinding.ActivitySigninBinding
+import com.example.chanity.ui.test.TestActivity
+import java.util.prefs.Preferences
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

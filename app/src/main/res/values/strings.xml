@@ -75,4 +75,10 @@
     <string name="n_desc">The sub-traits of neuroticism personality trait are: Anxiety, high anger level, depressed, have high self-consciousness, immoderate and vulnerable.</string>
     <string name="n_strength">Sensitive and aware in a way that some others might not be.\nLikely to be the one who is always looking out for others.\nRealistic.\nHave high self-awareness.\nValue the safety of knowing what to expect over the risk of disappointment from trying to engage in unfamiliar and unproven ways.</string>
     <string name="n_weakness">Dramatic changes in feelings.\nTend to be more anxious when they perceive the situation to be negative.\nTend to experience a lot of stress.\nOverly aware and sensitive about what others think of them.\nTend to self-doubt themselves.</string>
+
+    <string name="emptyPassword">Password is empty!</string>
+    <string name="passError">Password should be more than 6 characters!</string>
+    <string name="emptyEmail">E-mail is empty!</string>
+    <string name="emailInvalid">E-mail is not valid!</string>
+    <string name="emptyName">Name is empty!</string>
 </resources>

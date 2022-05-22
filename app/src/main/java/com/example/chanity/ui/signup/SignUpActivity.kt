@@ -1,4 +1,4 @@
-package com.example.chanity
+package com.example.chanity.ui.signup
 
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity

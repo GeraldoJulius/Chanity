@@ -1,4 +1,4 @@
-package com.example.chanity
+package com.example.chanity.ui.splashscreen
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,6 +7,8 @@ import android.os.Handler
 import android.os.Looper
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.example.chanity.R
+import com.example.chanity.ui.main.MainActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {

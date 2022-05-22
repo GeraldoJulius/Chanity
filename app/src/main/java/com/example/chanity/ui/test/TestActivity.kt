@@ -1,4 +1,4 @@
-package com.example.chanity
+package com.example.chanity.ui.test
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,21 +6,30 @@ import android.os.Bundle
 import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
-import com.example.chanity.databinding.ActivityResultBinding
+import com.example.chanity.R
 import com.example.chanity.databinding.ActivityTestBinding
+import com.example.chanity.ui.result.ResultActivity
 
-class ResultActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityResultBinding
+class TestActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityTestBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityResultBinding.inflate(layoutInflater)
+        binding = ActivityTestBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        setupAction()
+    }
+
+    private fun setupAction() {
+        binding.button2.setOnClickListener {
+            startActivity(Intent(this, ResultActivity::class.java))
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater = menuInflater
-        inflater.inflate(R.menu.option_menu2, menu)
+        inflater.inflate(R.menu.option_menu, menu)
         return true
     }
 
@@ -32,11 +41,6 @@ class ResultActivity : AppCompatActivity() {
             }
             R.id.logout -> {
                 /*MainViewModel.logout()*/
-                return true
-            }
-
-            R.id.home -> {
-                startActivity(Intent(this, MainActivity::class.java))
                 return true
             }
             else -> true

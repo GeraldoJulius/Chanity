@@ -1,4 +1,4 @@
-package com.example.chanity
+package com.example.chanity.ui.welcome
 
 import android.content.Intent
 import android.os.Build
@@ -7,6 +7,8 @@ import com.example.chanity.databinding.ActivityWelcomeBinding
 import android.os.Bundle
 import android.view.WindowInsets
 import android.view.WindowManager
+import com.example.chanity.ui.signin.SignInActivity
+import com.example.chanity.ui.signup.SignUpActivity
 
 class WelcomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityWelcomeBinding
