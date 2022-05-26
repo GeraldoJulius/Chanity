@@ -1,5 +1,6 @@
 package com.example.chanity.ui.signup
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,6 +15,8 @@ import com.example.chanity.helper.showLoading
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+
+
 
 class SignUpActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
