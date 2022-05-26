@@ -6,35 +6,55 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowInsets
 import android.view.WindowManager
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivitySignupBinding
-import com.example.chanity.helper.ViewModelFactory
-import com.example.chanity.helper.showLoading
+import com.example.chanity.ui.welcome.WelcomeActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-
-
 class SignUpActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     private lateinit var binding: ActivitySignupBinding
-    private lateinit var signUpViewModel: SignUpViewModel
+    /*private lateinit var signUpViewModel: SignUpViewModel*/
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        auth = Firebase.auth
-        setupView()
-        setupViewModel()
-        setupAction()
-    }
+        auth = FirebaseAuth.getInstance()
 
-    private fun setupView() {
+        binding.signupButton.setOnClickListener {
+            val email = binding.emailEditText.text.toString()
+            val password = binding.passwordEditText.text.toString()
+
+            if (email.isNotEmpty() && password.isNotEmpty()) {
+                auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener {
+                    if (it.isSuccessful) {
+                        val intent = Intent(this, WelcomeActivity::class.java)
+                        startActivity(intent)
+                    }
+                    else {
+                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+                    }
+                }
+            }
+            else {
+                Toast.makeText(this, "Fields are not allowed to be empty", Toast.LENGTH_SHORT).show()
+            }
+
+
+        /*setupView()
+        setupViewModel()
+        setupAction()*/
+    }
+}
+
+    /*private fun setupView() {
         @Suppress("DEPRECATION")
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             window.insetsController?.hide(WindowInsets.Type.statusBars())
@@ -70,6 +90,7 @@ class SignUpActivity : AppCompatActivity() {
                         setTitle(getString(R.string.message_title))
                         setMessage(getString(R.string.message_body))
                         setPositiveButton(getString(R.string.posbutton)) { _, _ ->
+                            startActivity(Intent(context, WelcomeActivity::class.java))
                             finish()
                         }
                         create()
@@ -78,5 +99,5 @@ class SignUpActivity : AppCompatActivity() {
                 }
             }
         }
-    }
+    }*/
 }
