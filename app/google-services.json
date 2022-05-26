@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "738779745251",
+    "project_id": "chanityproject",
+    "storage_bucket": "chanityproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738779745251:android:d9778d03f3ef79db3c6ed6",
+        "android_client_info": {
+          "package_name": "com.example.chanity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738779745251-8ht6ac2aa0sjild8e2o151np0q9a09q8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chanity",
+            "certificate_hash": "a0f4af25516860f4c962d43f9aa174a542af3db4"
+          }
+        },
+        {
+          "client_id": "738779745251-rftaia2epkjndmnn6ov85g9rddmpku8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkM4uI5J9-FfxJofkdxieORiq9XC6tQW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738779745251-rftaia2epkjndmnn6ov85g9rddmpku8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
