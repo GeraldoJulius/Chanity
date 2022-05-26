@@ -8,7 +8,6 @@ import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
 import androidx.datastore.core.DataStore
-import androidx.datastore.preferences.preferencesDataStore
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityMainBinding
 import com.example.chanity.ui.test.TestActivity

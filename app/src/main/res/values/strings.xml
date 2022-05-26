@@ -81,4 +81,7 @@
     <string name="emptyEmail">E-mail is empty!</string>
     <string name="emailInvalid">E-mail is not valid!</string>
     <string name="emptyName">Name is empty!</string>
+    <string name="message_title">Congrats!</string>
+    <string name="message_body">Your account is created.</string>
+    <string name="posbutton">Next</string>
 </resources>
