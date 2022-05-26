@@ -32,8 +32,35 @@
     // test
     <string name="test1">Answer each question according to how well it describes you. </string>
     <string name="get_result">Get Result</string>
-    <string name="question1">Worry about things</string>
-    <string name="question2">Make friends easily</string>
+    <string name="question1">I am the life of the party.</string>
+    <string name="question2">I feel little concern for others.</string>
+    <string name="question3">I am always prepared.</string>
+    <string name="question4">I get stressed out easily.</string>
+    <string name="question5">I have a rich vocabulary.</string>
+    <string name="question6">I dont talk a lot.</string>
+    <string name="question7">I am interested in people.</string>
+    <string name="question8">I leave my belongings around.</string>
+    <string name="question9">I am relaxed most of the time.</string>
+    <string name="question10">I have a difficulty understanding abstract ideas.</string>
+    <string name="question11">I feel comfortable around people.</string>
+    <string name="question12">I insult people.</string>
+    <string name="question13">I pay attention to details.</string>
+    <string name="question14">I worry about things.</string>
+    <string name="question15">I have a vivid imagination.</string>
+    <string name="question16">I keep in the background.</string>
+    <string name="question17">I sympathize with others feeling.</string>
+    <string name="question18">I make a mess of things.</string>
+    <string name="question19">I seldom feel blue.</string>
+    <string name="question20">I am not interested in abstract ideas.</string>
+    <string name="question21">I start conversations.</string>
+    <string name="question22">I am not interested in other peoples problems.</string>
+    <string name="question23">I get chores done right away.</string>
+    <string name="question24">I am easily disturbed.</string>
+    <string name="question25">I have excellent ideas.</string>
+
+
+
+
 
     // option menu
     <string name="language">Change Language</string>
@@ -44,7 +71,6 @@
     <string name="radio3">Neutral</string>
     <string name="radio4">Accurate</string>
     <string name="radio5">Very Accurate</string>
-    <string name="question3">Have a vivid imagination</string>
     <string name="result_greeting">%s your primary trait is %s</string>
     <string name="percentage_tv"><u>Percentage Result</u></string>
     <string name="result_ocean">OCEAN Result</string>
