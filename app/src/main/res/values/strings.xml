@@ -78,10 +78,9 @@
 
     <string name="emptyPassword">Password is empty!</string>
     <string name="passError">Password should be more than 6 characters!</string>
-    <string name="emptyEmail">E-mail is empty!</string>
-    <string name="emailInvalid">E-mail is not valid!</string>
-    <string name="emptyName">Name is empty!</string>
+    <string name="emptyEmail">Email is empty!</string>
+    <string name="emailInvalid">Email is not valid!</string>
     <string name="message_title">Congrats!</string>
     <string name="message_body">Your account is created.</string>
-    <string name="posbutton">Next</string>
+    <string name="posbutton">Login</string>
 </resources>

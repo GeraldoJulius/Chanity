@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.chanity.R
 import com.example.chanity.ui.main.MainActivity
 import com.example.chanity.ui.signup.SignUpActivity
+import com.example.chanity.ui.welcome.WelcomeActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {
@@ -23,7 +24,7 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this@SplashScreenActivity, SignUpActivity::class.java))
+            startActivity(Intent(this@SplashScreenActivity, WelcomeActivity::class.java))
             finish()
         }, 2000)
     }

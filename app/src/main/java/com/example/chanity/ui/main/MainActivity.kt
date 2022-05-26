@@ -11,6 +11,9 @@ import androidx.datastore.core.DataStore
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityMainBinding
 import com.example.chanity.ui.test.TestActivity
+import com.example.chanity.ui.welcome.WelcomeActivity
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import java.util.prefs.Preferences
 
 class MainActivity : AppCompatActivity() {
@@ -44,7 +47,8 @@ class MainActivity : AppCompatActivity() {
                     return true
                 }
                 R.id.logout -> {
-                    /*MainViewModel.logout()*/
+                    Firebase.auth.signOut()
+                    startActivity(Intent(this, WelcomeActivity::class.java))
                     return true
                 }
                 else -> true
