@@ -12,6 +12,7 @@ import com.example.chanity.R
 import com.example.chanity.databinding.ActivityMainBinding
 import com.example.chanity.ui.test.TestActivity
 import com.example.chanity.ui.welcome.WelcomeActivity
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import java.util.prefs.Preferences
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setupAction()
+        userSession()
     }
 
     private fun setupAction() {
@@ -33,7 +35,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, TestActivity::class.java))
         }
     }
+    private fun userSession(){
+        val auth = FirebaseAuth.getInstance()
 
+        val currentuser = auth.currentUser
+        if(currentuser == null) {
+            startActivity(Intent(this@MainActivity, WelcomeActivity::class.java))
+            finish()
+        }
+    }
         override fun onCreateOptionsMenu(menu: Menu): Boolean {
             val inflater = menuInflater
             inflater.inflate(R.menu.option_menu, menu)
