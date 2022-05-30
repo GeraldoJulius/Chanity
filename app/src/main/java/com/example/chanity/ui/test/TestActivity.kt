@@ -4,11 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.Settings
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityTestBinding
 import com.example.chanity.ui.result.ResultActivity
+import com.example.chanity.ui.test.fragment.TestFragment1
 
 class TestActivity : AppCompatActivity() {
     private lateinit var binding: ActivityTestBinding
@@ -18,14 +20,27 @@ class TestActivity : AppCompatActivity() {
         binding = ActivityTestBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setupAction()
+        // setupAction()
+
+        val mFragmentManager = supportFragmentManager
+        val mTestFragment = TestFragment1()
+        val fragment = mFragmentManager.findFragmentByTag(TestFragment1::class.java.simpleName)
+
+        if (fragment !is TestFragment1) {
+            Log.d("TestFragment", "Fragment Name :" + TestFragment1::class.java.simpleName)
+            mFragmentManager
+                .beginTransaction()
+                .add(R.id.frame_container, mTestFragment, TestFragment1::class.java.simpleName)
+                .commit()
+        }
+
     }
 
-    private fun setupAction() {
+    /*private fun setupAction() {
         binding.button2.setOnClickListener {
             startActivity(Intent(this, ResultActivity::class.java))
         }
-    }
+    }*/
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater = menuInflater
