@@ -97,7 +97,7 @@
     <string name="radio3">Neutral</string>
     <string name="radio4">Accurate</string>
     <string name="radio5">Very Accurate</string>
-    <string name="result_greeting">%s your primary trait is %s</string>
+    <string name="result_greeting">Your primary trait is </string>
     <string name="percentage_tv"><u>Percentage Result</u></string>
     <string name="result_ocean">OCEAN Result</string>
     <string name="percentage">%s{%}\n\n%s{%}\n\n%s{%}\n\n%s{%}\n\n%s{%}</string>
