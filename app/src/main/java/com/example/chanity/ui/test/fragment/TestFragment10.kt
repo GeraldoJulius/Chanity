@@ -22,14 +22,15 @@ class TestFragment10 : Fragment(), View.OnClickListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val btnNext: Button = view.findViewById(R.id.button2)
+        val btnNext: Button = view.findViewById(R.id.button3)
         btnNext.setOnClickListener(this)
     }
 
 
     override fun onClick(v: View) {
         if (v.id == R.id.button3) {
-
+            val intent = Intent(activity, ResultActivity::class.java)
+            startActivity(intent)
         }
     }
 }

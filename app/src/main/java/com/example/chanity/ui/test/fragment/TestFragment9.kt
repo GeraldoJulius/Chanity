@@ -30,11 +30,7 @@ class TestFragment9 : Fragment(), View.OnClickListener {
             val mTestFragment10 = TestFragment10()
             val mFragmentManager = parentFragmentManager
             mFragmentManager.beginTransaction().apply {
-                replace(
-                    R.id.frame_container,
-                    mTestFragment10,
-                    TestFragment10::class.java.simpleName
-                )
+                replace(R.id.frame_container, mTestFragment10, TestFragment10::class.java.simpleName)
                 addToBackStack(null)
                 commit()
             }
