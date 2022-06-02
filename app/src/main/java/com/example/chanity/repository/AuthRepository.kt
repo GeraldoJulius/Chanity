@@ -1,3 +1,4 @@
+/*
 package com.example.chanity.repository
 
 import android.app.Application
@@ -32,7 +33,8 @@ class AuthRepository {
         }
     }
 
-    /*fun authRepository(application: Application) {
+    */
+/*fun authRepository(application: Application) {
         this.application = application
         auth = FirebaseAuth.getInstance()
         firebaseUserMutableLiveData = MutableLiveData()
@@ -40,5 +42,6 @@ class AuthRepository {
         if (auth.currentUser != null) {
             firebaseUserMutableLiveData.postValue(auth.currentUser)
         }
-    }*/
-}
+    }*//*
+
+}*/

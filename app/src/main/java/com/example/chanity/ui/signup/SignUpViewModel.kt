@@ -1,3 +1,4 @@
+/*
 package com.example.chanity.ui.signup
 
 import android.app.Application
@@ -17,4 +18,4 @@ class SignUpViewModel(application: Application): AndroidViewModel(application) {
         appRepository = AuthRepository()
         appRepository.register(email = email, password = password)
     }
-}
+}*/

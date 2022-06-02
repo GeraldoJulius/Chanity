@@ -24,6 +24,8 @@ class SignUpActivity : AppCompatActivity() {
 
         setupView()
 
+        auth = FirebaseAuth.getInstance()
+
         binding.signupButton.setOnClickListener {
             val email = binding.emailEditText.text.toString()
             val password = binding.passwordEditText.text.toString()

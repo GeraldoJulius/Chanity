@@ -1,3 +1,4 @@
+/*
 package com.example.chanity.repository
 
 import android.app.Application
@@ -13,4 +14,4 @@ class AuthViewModel(application: Application): AndroidViewModel(application) {
         appRepository = AuthRepository()
         appRepository.register(email = email, password = password)
     }
-}
+}*/

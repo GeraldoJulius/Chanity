@@ -1,5 +1,6 @@
 package com.example.chanity.ui.test
 
+import android.app.AlertDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,10 +8,15 @@ import android.provider.Settings
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityTestBinding
-import com.example.chanity.ui.result.ResultActivity
+import com.example.chanity.ui.main.MainActivity
+import com.example.chanity.ui.signin.SignInActivity
 import com.example.chanity.ui.test.fragment.TestFragment1
+import com.example.chanity.ui.welcome.WelcomeActivity
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class TestActivity : AppCompatActivity() {
     private lateinit var binding: ActivityTestBinding
@@ -19,8 +25,6 @@ class TestActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityTestBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        // setupAction()
 
         val mFragmentManager = supportFragmentManager
         val mTestFragment = TestFragment1()
@@ -33,14 +37,7 @@ class TestActivity : AppCompatActivity() {
                 .add(R.id.frame_container, mTestFragment, TestFragment1::class.java.simpleName)
                 .commit()
         }
-
     }
-
-    /*private fun setupAction() {
-        binding.button2.setOnClickListener {
-            startActivity(Intent(this, ResultActivity::class.java))
-        }
-    }*/
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater = menuInflater
@@ -55,10 +52,28 @@ class TestActivity : AppCompatActivity() {
                 return true
             }
             R.id.logout -> {
-                /*MainViewModel.logout()*/
+                Firebase.auth.signOut()
+                startActivity(Intent(this, WelcomeActivity::class.java))
                 return true
             }
             else -> true
+        }
+    }
+
+    override fun onBackPressed() {
+        AlertDialog.Builder(this).apply {
+            setTitle(getString(R.string.warning))
+            setMessage(getString(R.string.quit_test))
+            setPositiveButton(getString(R.string.yesbutton)) { _, _ ->
+                val intent = Intent(context, MainActivity::class.java)
+                startActivity(intent)
+                // clear list answer
+            }
+            setNegativeButton(getString(R.string.nobutton)) { _, _ ->
+                Toast.makeText(context, getString(R.string.okay), Toast.LENGTH_SHORT).show()
+            }
+            create()
+            show()
         }
     }
 }
