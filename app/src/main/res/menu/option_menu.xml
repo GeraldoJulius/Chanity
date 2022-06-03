@@ -4,9 +4,6 @@
 
     <group android:menuCategory="container">
         <item
-            android:id="@+id/language"
-            android:title="@string/language"/>
-        <item
             android:id="@+id/logout"
             android:title="@string/logout" />
     </group>

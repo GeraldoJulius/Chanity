@@ -26,7 +26,6 @@ class TestFragment : Fragment() {
         viewModel = ViewModelProvider(this).get(TestViewModel::class.java)
         binding.testViewModel = viewModel
         binding.setLifecycleOwner(this)
-        //funcation to get ads
 
         viewModel.navigateToResult.observe(viewLifecycleOwner, Observer { isNavigate ->
             if (isNavigate) {
@@ -40,7 +39,7 @@ class TestFragment : Fragment() {
                 findNavController().navigate(action)*/
                 val sharedPref = activity?.getPreferences(Context.MODE_PRIVATE)
                 with(sharedPref?.edit()) {
-                    this?.putInt("quickTestDegree", testDegree)
+                    this?.putInt("testDegree", testDegree)
                         ?.commit()
                 }
             }
