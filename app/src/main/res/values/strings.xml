@@ -87,6 +87,7 @@
     <string name="question49">I often feel blue.</string>
     <string name="question50">I am full of ideas.</string>
 
+    <string name="questionNumber">Question %1$d/50</string>
 
     // option menu
     <string name="language">Change Language</string>

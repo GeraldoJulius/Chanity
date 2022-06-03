@@ -8,14 +8,21 @@ import android.provider.Settings
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.EditText
+import android.widget.RadioButton
 import android.widget.Toast
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityTestBinding
 import com.example.chanity.ui.main.MainActivity
 import com.example.chanity.ui.signin.SignInActivity
+import com.example.chanity.ui.test.fragment.TestFragment
 import com.example.chanity.ui.test.fragment.TestFragment1
 import com.example.chanity.ui.welcome.WelcomeActivity
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
 import com.google.firebase.ktx.Firebase
 
 class TestActivity : AppCompatActivity() {
@@ -27,14 +34,14 @@ class TestActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val mFragmentManager = supportFragmentManager
-        val mTestFragment = TestFragment1()
-        val fragment = mFragmentManager.findFragmentByTag(TestFragment1::class.java.simpleName)
+        val mTestFragment = TestFragment()
+        val fragment = mFragmentManager.findFragmentByTag(TestFragment::class.java.simpleName)
 
         if (fragment !is TestFragment1) {
-            Log.d("TestFragment", "Fragment Name :" + TestFragment1::class.java.simpleName)
+            Log.d("TestFragment", "Fragment Name :" + TestFragment::class.java.simpleName)
             mFragmentManager
                 .beginTransaction()
-                .add(R.id.frame_container, mTestFragment, TestFragment1::class.java.simpleName)
+                .add(R.id.frame_container, mTestFragment, TestFragment::class.java.simpleName)
                 .commit()
         }
     }
