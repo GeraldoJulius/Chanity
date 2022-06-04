@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.Settings
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
@@ -11,8 +12,6 @@ import android.widget.Toast
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityTestBinding
 import com.example.chanity.ui.main.MainActivity
-import com.example.chanity.ui.test.fragment.TestFragment
-import com.example.chanity.ui.test.fragment.TestFragment1
 import com.example.chanity.ui.welcome.WelcomeActivity
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -46,6 +45,10 @@ class TestActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
+            R.id.language -> {
+                startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
+                return true
+            }
             R.id.logout -> {
                 Firebase.auth.signOut()
                 startActivity(Intent(this, WelcomeActivity::class.java))

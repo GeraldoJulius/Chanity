@@ -3,6 +3,7 @@ package com.example.chanity.ui.main
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
 import com.example.chanity.R
@@ -47,6 +48,10 @@ class MainActivity : AppCompatActivity() {
 
         override fun onOptionsItemSelected(item: MenuItem): Boolean {
             return when (item.itemId) {
+                R.id.language -> {
+                    startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
+                    return true
+                }
                 R.id.logout -> {
                     Firebase.auth.signOut()
                     startActivity(Intent(this, WelcomeActivity::class.java))
