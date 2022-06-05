@@ -46,7 +46,6 @@ class ResultActivity : AppCompatActivity() {
             binding.desc.text = getString(R.string.o_desc)
             binding.sResult.text = getString(R.string.o_strength)
             binding.wResult.text = getString(R.string.o_weakness)
-
         }
     }
 
@@ -73,5 +72,10 @@ class ResultActivity : AppCompatActivity() {
             }
             else -> true
         }
+    }
+
+    override fun onBackPressed() {
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 }

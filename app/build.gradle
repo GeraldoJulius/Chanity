@@ -40,9 +40,7 @@ dependencies {
     // firebase
     implementation platform('com.google.firebase:firebase-bom:30.0.2')
     implementation 'com.google.firebase:firebase-analytics-ktx'
-    implementation 'com.google.firebase:firebase-database-ktx'
     implementation 'com.google.firebase:firebase-auth-ktx'
-    implementation 'com.google.firebase:firebase-storage-ktx'
 
     // retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'

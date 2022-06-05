@@ -3,7 +3,6 @@ package com.example.chanity.ui.test
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.google.android.gms.common.internal.FallbackServiceBroker
 
 class TestViewModel: ViewModel() {
     private lateinit var questions: MutableList<String>
@@ -17,7 +16,6 @@ class TestViewModel: ViewModel() {
     var testDegree = 0
 
     var index = 0
-
     private val _questionIndex = MutableLiveData<Int>()
     val questionIndex: LiveData<Int>
         get() = _questionIndex

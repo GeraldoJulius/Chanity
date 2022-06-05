@@ -1,2 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Chanity</string>
+
+    // splash screen
+    <string name="splash_iv">SplashScreen</string>
+    <string name="chanity_iv">Chanity Logo</string>
+
+    // welcome
+    <string name="WelcomeTitle">Selamat datang di Chanity!</string>
+    <string name="RegisLogin">Mohon buat akun atau masuk dahulu.</string>
+    <string name="getstarted">Buat akun</string>
+    <string name="signin">Masuk</string>
+
+    // register login
+    <string name="copyright">© 2022 Chanity</string>
+    <string name="password">Kata Sandi</string>
+    <string name="email">Email</string>
+    <string name="title_signup_page">Siap membuat akunmu?</string>
+    <string name="title_login_page">Selamat datang kembali!</string>
+
+
+    // home
+    <string name="home1">Cek kepribadian anda dengan mengambil tes ini!</string>
+    <string name="home2">Tes kepribadian Big Five mengukur lima faktor kepribadian yang telah ditentukan oleh psikolog sebagai inti dari kepribadian manusia. Lima faktor kepribadian tersebut antara lain:</string>
+    <string name="start_test">Mulai Tes</string>
+    <string name="ocean_iv">Ocean Image</string>
+
+    // test
+    <string name="test1">Jawab setiap pertanyaan berdasarkan seberapa cocok itu mendeskripsikan diri anda. </string>
+
+    <string name="questionNumber">Pertanyaan %1$d/50</string>
+
+    // option menu
+    <string name="language">Ganti Bahasa</string>
+    <string name="logout">Keluar</string>
+    <string name="home">Home</string>
+    <string name="radio1">Sangat tidak tepat</string>
+    <string name="radio2">Tidak tepat</string>
+    <string name="radio3">Netral</string>
+    <string name="radio4">Tepat</string>
+    <string name="radio5">Sangat Tepat</string>
+    <string name="result_greeting">Kepribadian utama anda adalah Openness.</string>
+    <string name="percentage_tv"><u>Hasil Persentase</u></string>
+    <string name="result_ocean">OCEAN Result</string>
+
+    <string name="o_percentage">%s%%</string>
+    <string name="c_percentage">%s%%</string>
+    <string name="e_percentage">%s%%</string>
+    <string name="a_percentage">%s%%</string>
+    <string name="n_percentage">%s%%</string>
+
+    <string name="strengths">Kelebihan</string>
+    <string name="weaknesses">Kekurangan</string>
+
+    <string name="o_desc">Karakteristik dari kepribadian openness adalah: Imajinatif, menyukai petualangan, mempunyai minat artistik yang tinggi dan intelijen.</string>
+    <string name="o_strength">Mudah diajak kolaborasi.\nKreatif.\nSuka mempelajari hal baru.\nTerbuka terhadap keberagaman.</string>
+    <string name="o_weakness">Mudah tergoncang.\nMemiliki ide yang sering tidak konvensional.\nSulit diprediksi.\nMenghindari posisi dimana peraturan ditetapkan.</string>
+
+    <string name="c_desc">Karakteristik dari kepribadian conscientiousness adalah: Rapi, percaya diri, disiplin pada diri sendiri dan waspada.</string>
+    <string name="c_strength">Selalu siap dalam segala situasi.\nPerhatian terhadap detil.\nPekerja keras.\nJarang membuat keputusan yang ceroboh.</string>
+    <string name="c_weakness">Perfeksionis.\nDalam beberapa situasi sangat serius.\Tidak fleksibel.\nKesulitan dalam hal spontanitas.</string>
+
+    <string name="e_desc">Karakteristik dari kepribadian extraversion adalah: Ramah, aktif, suka mencari hal yang menyenangkan and ceria.</string>
+    <string name="e_strength">Dapat mengerti cerita orang lain.\nDisukai di tim dan kantor.\nDapat membentuk pertemanan dengan mudah dan cepat.\nMembuat kerja tim menjadi efektif.</string>
+    <string name="e_weakness">Tidak mandiri.\nTerkadang dapat membuat orang lain tidak nyaman.\nTerkadang tidak pengertian.\nSering tidak dapat membuat penilaian yang analitis.</string>
+
+    <string name="a_desc">Karakteristik dari kepribadian agreeableness adalah: Memiliki kepercayaan yang tinggi pada orang lain, baik dalam kerjasama, rendah hati and simpatis.</string>
+    <string name="a_strength">Merasa senang dengan merawat orang lain.\nAkrab dengan orang lain.\nDapat membentuk pertemanan dengan mudah.\nJarang menilai orang lain.</string>
+    <string name="a_weakness">Sulit memenuhi kebutuhan dan keinginan diri sendiri.\nSering lupa merencanakan masa depan diri sendiri.\nSering dimanfaatkan.\nSering kali bekerja dengan melampaui batasnya.</string>
+
+    <string name="n_desc">Karakteristik dari kepribadian neuroticism adalah: Mudah cemas, memiliki tingkat amarah yang tinggi, depresi, dan memiliki kesadaran diri yang tinggi.</string>
+    <string name="n_strength">Sensitif.\nSering menjadi orang yang perhatian pada orang lain.\Realistis.\nMemiliki kesadaran diri sendiri yang tinggi.</string>
+    <string name="n_weakness">Memiliki perubahan perasaan yang dramatis.\nMudah cemas saat dihadapkan dengan situasi yang negatif.\nMudah strss.\nSering tidak percaya pada diri sendiri.</string>
+
+    <string name="emptyPassword">Kata sandi kosong!</string>
+    <string name="emptyEmail">Email kosong!</string>
+    <string name="message_title">Selamat!</string>
+    <string name="message_body">Akun anda telah dibuat.</string>
+    <string name="posbutton">Masuk</string>
+    <string name="next">Lanjut</string>
+
+    <string name="quit_test">Apakah anda yakin ingin keluar dari tes?</string>
+    <string name="warning">Peringatan</string>
+    <string name="yesbutton">Ya</string>
+    <string name="nobutton">Tidak</string>
+    <string name="okay">Oke! Lanjut terus!</string>
+
+    //dummyQuestion
+    <string name="question1">question1</string>
+    <string name="question2">question2</string>
+    <string name="question3">question3</string>
+    <string name="question4">question4</string>
+    <string name="question5">question5</string>
+    <string name="question6">question6</string>
+    <string name="question7">question7</string>
+    <string name="question8">question8</string>
+    <string name="question9">question9</string>
+    <string name="question10">question10</string>
+    <string name="question11">question11</string>
+    <string name="question12">question12</string>
+    <string name="question13">question13</string>
+    <string name="question14">question14</string>
+    <string name="question15">question15</string>
+    <string name="question16">question16</string>
+    <string name="question17">question17</string>
+    <string name="question18">question18</string>
+    <string name="question19">question19</string>
+    <string name="question20">question20</string>
+    <string name="question21">question21</string>
+    <string name="question22">question22</string>
+    <string name="question23">question23</string>
+    <string name="question24">question24</string>
+    <string name="question25">question25</string>
+    <string name="question26">question26</string>
+    <string name="question27">question27</string>
+    <string name="question28">question28</string>
+    <string name="question29">question29</string>
+    <string name="question30">question30</string>
+    <string name="question31">question31</string>
+    <string name="question32">question32</string>
+    <string name="question33">question33</string>
+    <string name="question34">question34</string>
+    <string name="question35">question35</string>
+    <string name="question36">question36</string>
+    <string name="question37">question37</string>
+    <string name="question38">question38</string>
+    <string name="question39">question39</string>
+    <string name="question40">question40</string>
+    <string name="question41">question41</string>
+    <string name="question42">question42</string>
+    <string name="question43">question43</string>
+    <string name="question44">question44</string>
+    <string name="question45">question45</string>
+    <string name="question46">question46</string>
+    <string name="question47">question47</string>
+    <string name="question48">question48</string>
+    <string name="question49">question49</string>
+    <string name="question50">question50</string>
+
+    <string name="beginning">Anda berada di awal aplikasi.</string>
+
+</resources>

@@ -5,11 +5,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.chanity.api.ApiConfig
-import com.example.chanity.api.QuizResponse
-import com.example.chanity.api.QuizResult
-import okhttp3.MultipartBody
-import okhttp3.RequestBody
-import org.json.JSONObject
+import com.example.chanity.model.QuizResponse
+import com.example.chanity.model.QuizResult
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

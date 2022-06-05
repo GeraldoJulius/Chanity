@@ -65,7 +65,6 @@ class TestActivity : AppCompatActivity() {
             setPositiveButton(getString(R.string.yesbutton)) { _, _ ->
                 val intent = Intent(context, MainActivity::class.java)
                 startActivity(intent)
-                // clear list answer
             }
             setNegativeButton(getString(R.string.nobutton)) { _, _ ->
                 Toast.makeText(context, getString(R.string.okay), Toast.LENGTH_SHORT).show()

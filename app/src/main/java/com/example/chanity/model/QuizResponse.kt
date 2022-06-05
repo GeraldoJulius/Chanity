@@ -1,4 +1,4 @@
-package com.example.chanity.api
+package com.example.chanity.model
 
 import com.google.gson.annotations.SerializedName
 

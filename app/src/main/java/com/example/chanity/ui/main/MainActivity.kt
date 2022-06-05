@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityMainBinding
-import com.example.chanity.ui.result.ResultActivity
 import com.example.chanity.ui.test.TestActivity
 import com.example.chanity.ui.welcome.WelcomeActivity
 import com.google.firebase.auth.FirebaseAuth
@@ -29,9 +29,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupAction() {
         binding.button.setOnClickListener {
-            startActivity(Intent(this, ResultActivity::class.java))
+            startActivity(Intent(this, TestActivity::class.java))
         }
     }
+
     private fun userSession(){
         val auth = FirebaseAuth.getInstance()
 
@@ -41,24 +42,29 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
     }
-        override fun onCreateOptionsMenu(menu: Menu): Boolean {
-            val inflater = menuInflater
-            inflater.inflate(R.menu.option_menu, menu)
-            return true
-        }
 
-        override fun onOptionsItemSelected(item: MenuItem): Boolean {
-            return when (item.itemId) {
-                R.id.language -> {
-                    startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
-                    return true
-                }
-                R.id.logout -> {
-                    Firebase.auth.signOut()
-                    startActivity(Intent(this, WelcomeActivity::class.java))
-                    return true
-                }
-                else -> true
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val inflater = menuInflater
+        inflater.inflate(R.menu.option_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.language -> {
+                startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
+                return true
             }
+            R.id.logout -> {
+                Firebase.auth.signOut()
+                startActivity(Intent(this, WelcomeActivity::class.java))
+                return true
+            }
+            else -> true
         }
+    }
+
+    override fun onBackPressed() {
+        Toast.makeText(this, getString(R.string.beginning), Toast.LENGTH_SHORT).show()
+    }
 }

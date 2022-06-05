@@ -10,16 +10,13 @@
     <string name="RegisLogin">Please register or login first.</string>
     <string name="getstarted">Get Started</string>
     <string name="signin">Sign In</string>
-    <string name="title_welcome_page">Welcome to Chanity!</string>
 
     // register login
     <string name="copyright">© 2022 Chanity</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
-    <string name="name">Username</string>
     <string name="title_signup_page">Ready to create your account?</string>
     <string name="title_login_page">Welcome back!</string>
-    <string name="message_login_page">Welcome back :)</string>
 
 
     // home
@@ -42,7 +39,7 @@
     <string name="radio3">Neutral</string>
     <string name="radio4">Accurate</string>
     <string name="radio5">Very Accurate</string>
-    <string name="result_greeting">Your primary trait is Openness </string>
+    <string name="result_greeting">Your primary trait is Openness.</string>
     <string name="percentage_tv"><u>Percentage Result</u></string>
     <string name="result_ocean">OCEAN Result</string>
 
@@ -52,52 +49,35 @@
     <string name="a_percentage">%s%%</string>
     <string name="n_percentage">%s%%</string>
 
-    <string name="desc">%s</string>
     <string name="strengths">Strengths</string>
-    <string name="strengths_tv">%s</string>
     <string name="weaknesses">Weaknesses</string>
-    <string name="weaknesses_tv">%s</string>
 
-    <string name="o_desc">The sub-traits of openness personality trait are: Imaginative, adventurous, have high emotionality, have high artistic interests, intelligent and liberalism.</string>
-    <string name="o_strength">Easy to collaborate with.\nCreative.\nLove to learn something new.\nOpen to diversity.\nGive great attention to mental imagery.</string>
-    <string name="o_weakness">Easily swayed.\nTheir ideas are often unconventional.\nMany of them are often unpredictable.\nTend to avoid positions that need to set rules and guidelines.\nTend to feel many emotions simultaneously which can lead to anxiety and depression.</string>
+    <string name="o_desc">The sub-traits of openness personality trait are: Imaginative, adventurous, have high artistic interests, and intelligent.</string>
+    <string name="o_strength">Easy to collaborate with.\nCreative.\nLove to learn something new.\nOpen to diversity.</string>
+    <string name="o_weakness">Easily swayed.\nTheir ideas are often unconventional.\nUnpredictable.\nTend to avoid positions that need to set rules and guidelines.</string>
 
-    <string name="c_desc">The sub-traits of conscientiousness personality trait are: Well-organized, have strong sense of moral obligation, confident, achievement-striving, self-discipline and cautious.</string>
-    <string name="c_strength">Organized and always come into situations prepared.\nAttentive to detail.\nHardworking.\nRarely make impulsive or careless decisions.\nTend to pay attention to detail to make sure they deliver on their promises.</string>
-    <string name="c_weakness">Perfectionist.\nMay be excessively serious in some situations.\nInflexible.\nStruggle to be spontaneous.\nTend to have obsessive-compulsive disorder.</string>
+    <string name="c_desc">The sub-traits of conscientiousness personality trait are: Well-organized, confident, self-discipline and cautious.</string>
+    <string name="c_strength">Organized and always come into situations prepared.\nAttentive to detail.\nHardworking.\nRarely make impulsive or careless decisions.</string>
+    <string name="c_weakness">Perfectionist.\nMay be excessively serious in some situations.\nInflexible.\nStruggle to be spontaneous.</string>
 
-    <string name="e_desc">The sub-traits of extraversion personality trait are: Friendly, gregarious, assertive, have high activity level, excitement-seeking and cheerful.</string>
-    <string name="e_strength">Tend to relate well to others.\nOften well-liked in their teams and offices.\nForm quick and easy friendships.\nTheir outgoing nature leads to effective group-work.\nUsually very determined, likely to take charge, and confident.</string>
-    <string name="e_weakness">May lack independence.\nCan sometimes make others uncomfortable.\nStruggle with keeping their emotions in check.\nMay be inconsiderate or sometimes socially unaware.\nOften unable to make analytical, emotionless judgements.</string>
+    <string name="e_desc">The sub-traits of extraversion personality trait are: Friendly, have high activity level, excitement-seeking and cheerful.</string>
+    <string name="e_strength">Tend to relate well to others.\nOften well-liked in their teams and offices.\nForm quick and easy friendships.\nTheir outgoing nature leads to effective group-work.</string>
+    <string name="e_weakness">May lack independence.\nCan sometimes make others uncomfortable.\nMay be inconsiderate or sometimes socially unaware.\nOften unable to make analytical, emotionless judgements.</string>
 
-    <string name="a_desc">The sub-traits of agreeableness personality trait are: Have high trust with people, altruistic, good at cooperation, have high morality, modest and sympathetic.</string>
-    <string name="a_strength">Tend to get pleasure from taking care of people.\nGet along well with others.\nAre socially and emotionally intelligent.\nForm friendships easily.\nRefrain to judging people.</string>
-    <string name="a_weakness">Struggle to assert their wants, needs and preferences.\nStruggle in situations that require tough decision.\nTend to forget to plan their own advancement.\nOften likely to be taken advantage of.\nTend to overwork themselves due to an inability to delegate properly.</string>
+    <string name="a_desc">The sub-traits of agreeableness personality trait are: Have high trust with people, good at cooperation, modest and sympathetic.</string>
+    <string name="a_strength">Tend to get pleasure from taking care of people.\nGet along well with others.\nForm friendships easily.\nRefrain to judging people.</string>
+    <string name="a_weakness">Struggle to assert their wants, needs and preferences.\nTend to forget to plan their own advancement.\nOften likely to be taken advantage of.\nTend to overwork themselves.</string>
 
-    <string name="n_desc">The sub-traits of neuroticism personality trait are: Anxiety, high anger level, depressed, have high self-consciousness, immoderate and vulnerable.</string>
-    <string name="n_strength">Sensitive and aware in a way that some others might not be.\nLikely to be the one who is always looking out for others.\nRealistic.\nHave high self-awareness.\nValue the safety of knowing what to expect over the risk of disappointment from trying to engage in unfamiliar and unproven ways.</string>
-    <string name="n_weakness">Dramatic changes in feelings.\nTend to be more anxious when they perceive the situation to be negative.\nTend to experience a lot of stress.\nOverly aware and sensitive about what others think of them.\nTend to self-doubt themselves.</string>
+    <string name="n_desc">The sub-traits of neuroticism personality trait are: Anxiety, high anger level, depressed, and have high self-consciousness.</string>
+    <string name="n_strength">Sensitive.\nLikely to be the one who is always looking out for others.\nRealistic.\nHave high self-awareness.</string>
+    <string name="n_weakness">Dramatic changes in feelings.\nTend to be more anxious when they perceive the situation to be negative.\nTend to experience a lot of stress.\nTend to self-doubt themselves.</string>
 
     <string name="emptyPassword">Password is empty!</string>
-    <string name="passError">Password should be more than 6 characters!</string>
     <string name="emptyEmail">Email is empty!</string>
-    <string name="emailInvalid">Email is not valid!</string>
     <string name="message_title">Congrats!</string>
     <string name="message_body">Your account is created.</string>
     <string name="posbutton">Login</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="next">Next</string>
-    <string name="question_p1">[ Question 1 – 5 ]</string>
-    <string name="question_p2">[ Question 6 – 10 ]</string>
-    <string name="question_p3">[ Question 11 – 15 ]</string>
-    <string name="question_p4">[ Question 16 – 20 ]</string>
-    <string name="question_p5">[ Question 21 – 25 ]</string>
-    <string name="question_p6">[ Question 26 – 30 ]</string>
-    <string name="question_p7">[ Question 31 – 35 ]</string>
-    <string name="question_p8">[ Question 36 – 40 ]</string>
-    <string name="question_p9">[ Question 41 – 45 ]</string>
-    <string name="question_p10">[ Question 46 – 50 ]</string>
 
     <string name="quit_test">Are you sure you want to exit the test?</string>
     <string name="warning">Warning</string>
@@ -107,55 +87,56 @@
 
     //dummyQuestion
     <string name="question1">question1</string>
-    <string name="question2">question1</string>
-    <string name="question3">question1</string>
-    <string name="question4">question1</string>
-    <string name="question5">question1</string>
-    <string name="question6">question1</string>
-    <string name="question7">question1</string>
-    <string name="question8">question1</string>
-    <string name="question9">question1</string>
-    <string name="question10">question1</string>
-    <string name="question11">question1</string>
-    <string name="question12">question1</string>
-    <string name="question13">question1</string>
-    <string name="question14">question1</string>
-    <string name="question15">question1</string>
-    <string name="question16">question1</string>
-    <string name="question17">question1</string>
-    <string name="question18">question1</string>
-    <string name="question19">question1</string>
-    <string name="question20">question1</string>
-    <string name="question21">question1</string>
-    <string name="question22">question1</string>
-    <string name="question23">question1</string>
-    <string name="question24">question1</string>
-    <string name="question25">question1</string>
-    <string name="question26">question1</string>
-    <string name="question27">question1</string>
-    <string name="question28">question1</string>
-    <string name="question29">question1</string>
-    <string name="question30">question1</string>
-    <string name="question31">question1</string>
-    <string name="question32">question1</string>
-    <string name="question33">question1</string>
-    <string name="question34">question1</string>
-    <string name="question35">question1</string>
-    <string name="question36">question1</string>
-    <string name="question37">question1</string>
-    <string name="question38">question1</string>
-    <string name="question39">question1</string>
-    <string name="question40">question1</string>
-    <string name="question41">question1</string>
-    <string name="question42">question1</string>
-    <string name="question43">question1</string>
-    <string name="question44">question1</string>
-    <string name="question45">question1</string>
-    <string name="question46">question1</string>
-    <string name="question47">question1</string>
-    <string name="question48">question1</string>
-    <string name="question49">question1</string>
-    <string name="question50">question1</string>
+    <string name="question2">question2</string>
+    <string name="question3">question3</string>
+    <string name="question4">question4</string>
+    <string name="question5">question5</string>
+    <string name="question6">question6</string>
+    <string name="question7">question7</string>
+    <string name="question8">question8</string>
+    <string name="question9">question9</string>
+    <string name="question10">question10</string>
+    <string name="question11">question11</string>
+    <string name="question12">question12</string>
+    <string name="question13">question13</string>
+    <string name="question14">question14</string>
+    <string name="question15">question15</string>
+    <string name="question16">question16</string>
+    <string name="question17">question17</string>
+    <string name="question18">question18</string>
+    <string name="question19">question19</string>
+    <string name="question20">question20</string>
+    <string name="question21">question21</string>
+    <string name="question22">question22</string>
+    <string name="question23">question23</string>
+    <string name="question24">question24</string>
+    <string name="question25">question25</string>
+    <string name="question26">question26</string>
+    <string name="question27">question27</string>
+    <string name="question28">question28</string>
+    <string name="question29">question29</string>
+    <string name="question30">question30</string>
+    <string name="question31">question31</string>
+    <string name="question32">question32</string>
+    <string name="question33">question33</string>
+    <string name="question34">question34</string>
+    <string name="question35">question35</string>
+    <string name="question36">question36</string>
+    <string name="question37">question37</string>
+    <string name="question38">question38</string>
+    <string name="question39">question39</string>
+    <string name="question40">question40</string>
+    <string name="question41">question41</string>
+    <string name="question42">question42</string>
+    <string name="question43">question43</string>
+    <string name="question44">question44</string>
+    <string name="question45">question45</string>
+    <string name="question46">question46</string>
+    <string name="question47">question47</string>
+    <string name="question48">question48</string>
+    <string name="question49">question49</string>
+    <string name="question50">question50</string>
 
+    <string name="beginning">You are at the beginning of the application.</string>
 
 </resources>
