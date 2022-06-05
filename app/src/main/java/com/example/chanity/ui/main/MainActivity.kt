@@ -8,6 +8,7 @@ import android.view.Menu
 import android.view.MenuItem
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityMainBinding
+import com.example.chanity.ui.result.ResultActivity
 import com.example.chanity.ui.test.TestActivity
 import com.example.chanity.ui.welcome.WelcomeActivity
 import com.google.firebase.auth.FirebaseAuth
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupAction() {
         binding.button.setOnClickListener {
-            startActivity(Intent(this, TestActivity::class.java))
+            startActivity(Intent(this, ResultActivity::class.java))
         }
     }
     private fun userSession(){

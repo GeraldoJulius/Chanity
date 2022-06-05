@@ -34,7 +34,8 @@ class ResultActivity : AppCompatActivity() {
         resultViewModel.postQuiz()
 
         resultViewModel.quizResponse.observe(this) {
-            binding.resultTv.text = getString(R.string.result_greeting)
+
+            binding.result.text = getString(R.string.result_greeting)
 
             binding.percentage1.text = getString(R.string.o_percentage, it.openness.toString())
             binding.percentage2.text = getString(R.string.c_percentage, it.conscientiousness.toString())
@@ -42,9 +43,10 @@ class ResultActivity : AppCompatActivity() {
             binding.percentage4.text = getString(R.string.a_percentage, it.agreeableness.toString())
             binding.percentage5.text = getString(R.string.n_percentage, it.neuroticism.toString())
 
-            binding.descTv.text = getString(R.string.o_desc)
-            binding.strengthResult.text = getString(R.string.o_strength)
-            binding.weaknessesResult.text = getString(R.string.o_weakness)
+            binding.desc.text = getString(R.string.o_desc)
+            binding.sResult.text = getString(R.string.o_strength)
+            binding.wResult.text = getString(R.string.o_weakness)
+
         }
     }
 
