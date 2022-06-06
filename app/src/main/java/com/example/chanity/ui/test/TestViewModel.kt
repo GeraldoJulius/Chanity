@@ -1,8 +1,11 @@
 package com.example.chanity.ui.test
 
+import android.widget.Toast
+import androidx.core.util.rangeTo
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.chanity.R
 
 class TestViewModel: ViewModel() {
     private lateinit var questions: MutableList<String>
@@ -15,12 +18,18 @@ class TestViewModel: ViewModel() {
 
     var testDegree = 0
 
-    var index = 0
+    private var testDegreeOpn = 0
+    private var testDegreeCon = 0
+    private var testDegreeExt = 0
+    private var testDegreeAgr = 0
+    private var testDegreeNeu = 0
+
+    private var index = 0
     private val _questionIndex = MutableLiveData<Int>()
     val questionIndex: LiveData<Int>
         get() = _questionIndex
 
-    var questionNumber = 0
+    private var questionNumber = 0
     private val _currentQuestion = MutableLiveData<String>()
     val currentQuestion: LiveData<String>
         get() = _currentQuestion
@@ -106,6 +115,7 @@ class TestViewModel: ViewModel() {
         if (index < questions.size - 1 && (isVeryInaccurate || isInaccurate || isNeutral || isAccurate || isVeryAccurate)) {
             if (isAccurate || isVeryAccurate) {
                 ++testDegree
+
             }
             _questionIndex.value = ++questionNumber
             _currentQuestion.value = questions[++index]
@@ -125,43 +135,115 @@ class TestViewModel: ViewModel() {
     }
 
     fun getVeryInaccurate() {
-        if(isInaccurate || isNeutral || isAccurate || isVeryAccurate) {
+        if (isInaccurate || isNeutral || isAccurate || isVeryAccurate) {
             isInaccurate = false
             isNeutral = false
             isAccurate = false
             isVeryAccurate = false
         }
         isVeryInaccurate = true
+
+        when (questionNumber) {
+            in 1..10 -> {
+                testDegreeExt += 1
+            }
+            in 11..20 -> {
+                testDegreeNeu += 1
+            }
+            in 21..30 -> {
+                testDegreeAgr += 1
+            }
+            in 31..40 -> {
+                testDegreeCon += 1
+            }
+            in 41..50 -> {
+                testDegreeOpn += 1
+            }
+        }
     }
 
     fun getInaccurate() {
-        if(isVeryInaccurate || isNeutral || isAccurate || isVeryAccurate) {
+        if (isVeryInaccurate || isNeutral || isAccurate || isVeryAccurate) {
             isVeryInaccurate = false
             isNeutral = false
             isAccurate = false
             isVeryAccurate = false
         }
         isInaccurate = true
+
+        when (questionNumber) {
+            in 1..10 -> {
+                testDegreeExt += 2
+            }
+            in 11..20 -> {
+                testDegreeNeu += 2
+            }
+            in 21..30 -> {
+                testDegreeAgr += 2
+            }
+            in 31..40 -> {
+                testDegreeCon += 2
+            }
+            in 41..50 -> {
+                testDegreeOpn += 2
+            }
+        }
     }
 
     fun getNeutral() {
-        if(isVeryInaccurate || isInaccurate || isAccurate || isVeryAccurate) {
+        if (isVeryInaccurate || isInaccurate || isAccurate || isVeryAccurate) {
             isVeryInaccurate = false
             isInaccurate = false
             isAccurate = false
             isVeryAccurate = false
         }
         isNeutral = true
+
+        when (questionNumber) {
+            in 1..10 -> {
+                testDegreeExt += 3
+            }
+            in 11..20 -> {
+                testDegreeNeu += 3
+            }
+            in 21..30 -> {
+                testDegreeAgr += 3
+            }
+            in 31..40 -> {
+                testDegreeCon += 3
+            }
+            in 41..50 -> {
+                testDegreeOpn += 3
+            }
+        }
     }
 
     fun getAccurate() {
-        if(isVeryInaccurate || isInaccurate || isNeutral || isVeryAccurate) {
+        if (isVeryInaccurate || isInaccurate || isNeutral || isVeryAccurate) {
             isVeryInaccurate = false
             isInaccurate = false
             isNeutral = false
             isVeryAccurate = false
         }
         isAccurate = true
+
+        when (questionNumber) {
+            in 1..10 -> {
+                testDegreeExt += 4
+            }
+            in 11..20 -> {
+                testDegreeNeu += 4
+            }
+            in 21..30 -> {
+                testDegreeAgr += 4
+            }
+            in 31..40 -> {
+                testDegreeCon += 4
+            }
+            in 41..50 -> {
+                testDegreeOpn += 4
+            }
+        }
     }
 
     fun getVeryAccurate() {
@@ -172,6 +254,24 @@ class TestViewModel: ViewModel() {
             isAccurate = false
         }
         isVeryAccurate = true
+
+        when (questionNumber) {
+            in 1..10 -> {
+                testDegreeExt += 5
+            }
+            in 11..20 -> {
+                testDegreeNeu += 5
+            }
+            in 21..30 -> {
+                testDegreeAgr += 5
+            }
+            in 31..40 -> {
+                testDegreeCon += 5
+            }
+            in 41..50 -> {
+                testDegreeOpn += 5
+            }
+        }
     }
 
     fun onNavigateToResult() {
