@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.test.TestActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/question36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="@string/question36"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/questionTextView" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/question36">
+
+            <RadioButton
+                android:id="@+id/radioButton361"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio1"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question36"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <RadioButton
+                android:id="@+id/radioButton362"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio2"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question36"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <RadioButton
+                android:id="@+id/radioButton363"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio3"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question36"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <RadioButton
+                android:id="@+id/radioButton364"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio4"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question36"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <RadioButton
+                android:id="@+id/radioButton365"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio5"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question36"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/question37"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup36" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/question37">
+
+            <RadioButton
+                android:id="@+id/radioButton371"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio1"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question37" />
+
+            <RadioButton
+                android:id="@+id/radioButton372"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio2"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question37" />
+
+            <RadioButton
+                android:id="@+id/radioButton373"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio3"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question37" />
+
+            <RadioButton
+                android:id="@+id/radioButton374"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio4"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question37" />
+
+            <RadioButton
+                android:id="@+id/radioButton375"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio5"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question37" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/question38"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup37" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/question38">
+
+            <RadioButton
+                android:id="@+id/radioButton381"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio1"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question38" />
+
+            <RadioButton
+                android:id="@+id/radioButton382"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio2"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question38" />
+
+            <RadioButton
+                android:id="@+id/radioButton383"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio3"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question38" />
+
+            <RadioButton
+                android:id="@+id/radioButton384"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio4"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question38" />
+
+            <RadioButton
+                android:id="@+id/radioButton385"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio5"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question38" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/question39"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup38" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/question39">
+
+            <RadioButton
+                android:id="@+id/radioButton391"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio1"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question39" />
+
+            <RadioButton
+                android:id="@+id/radioButton392"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio2"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question39" />
+
+            <RadioButton
+                android:id="@+id/radioButton393"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio3"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question39" />
+
+            <RadioButton
+                android:id="@+id/radioButton394"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio4"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question39" />
+
+            <RadioButton
+                android:id="@+id/radioButton395"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio5"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question39" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/question40"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup39" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/question40">
+
+            <RadioButton
+                android:id="@+id/radioButton401"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio1"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question40" />
+
+            <RadioButton
+                android:id="@+id/radioButton402"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio2"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question40" />
+
+            <RadioButton
+                android:id="@+id/radioButton403"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio3"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question40" />
+
+            <RadioButton
+                android:id="@+id/radioButton404"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio4"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question40" />
+
+            <RadioButton
+                android:id="@+id/radioButton405"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/radio5"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/question35" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup40" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

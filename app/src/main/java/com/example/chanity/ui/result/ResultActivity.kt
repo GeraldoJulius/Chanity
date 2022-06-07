@@ -2,6 +2,7 @@ package com.example.chanity.ui.result
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.graphics.ColorSpace
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.Settings
@@ -10,10 +11,15 @@ import android.view.MenuItem
 import androidx.lifecycle.ViewModelProvider
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityResultBinding
+import com.example.chanity.ml.Model
 import com.example.chanity.ui.main.MainActivity
 import com.example.chanity.ui.welcome.WelcomeActivity
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import org.tensorflow.lite.DataType
+import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
+import java.net.URLClassLoader.newInstance
+import java.nio.ByteBuffer
 
 class ResultActivity : AppCompatActivity() {
     private lateinit var binding: ActivityResultBinding
@@ -35,19 +41,40 @@ class ResultActivity : AppCompatActivity() {
 
         resultViewModel.quizResponse.observe(this) {
 
-            binding.result.text = getString(R.string.result_greeting)
-
-            binding.percentage1.text = getString(R.string.o_percentage, it.openness.toString())
-            binding.percentage2.text = getString(R.string.c_percentage, it.conscientiousness.toString())
-            binding.percentage3.text = getString(R.string.e_percentage, it.extraversion.toString())
-            binding.percentage4.text = getString(R.string.a_percentage, it.agreeableness.toString())
-            binding.percentage5.text = getString(R.string.n_percentage, it.neuroticism.toString())
-
-            binding.desc.text = getString(R.string.o_desc)
-            binding.sResult.text = getString(R.string.o_strength)
-            binding.wResult.text = getString(R.string.o_weakness)
         }
     }
+
+
+    private fun localModel(){
+
+
+        val byteBuffer : ByteBuffer = ByteBuffer.allocateDirect(50*4)
+
+        val model = Model.newInstance(applicationContext)
+        // Creates inputs for reference.
+
+        val inputFeature0 = TensorBuffer.createFixedSize(intArrayOf(1, 50), DataType.FLOAT32)
+        inputFeature0.loadBuffer(byteBuffer)
+
+        // Runs model inference and gets result.
+        val outputs = model.process(inputFeature0)
+        val outputFeature0 = outputs.outputFeature0AsTensorBuffer.floatArray
+
+        binding.percentage1.text = outputFeature0[0].toString()
+        binding.percentage2.text = outputFeature0[1].toString()
+        binding.percentage3.text = outputFeature0[2].toString()
+        binding.percentage4.text = outputFeature0[3].toString()
+        binding.percentage5.text = outputFeature0[4].toString()
+
+        binding.result.text = getString(R.string.result_greeting)
+        binding.desc.text = getString(R.string.o_desc)
+        binding.sResult.text = getString(R.string.o_strength)
+        binding.wResult.text = getString(R.string.o_weakness)
+
+        // Releases model resources if no longer used.
+        model.close()
+    }
+
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater = menuInflater
