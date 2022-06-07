@@ -2,6 +2,8 @@ package com.example.chanity.ui.test
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
 import android.widget.EditText
 import com.example.chanity.R
 
@@ -10,6 +12,11 @@ class TestActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_test2)
 
+        /*var button : Button = findViewById(R.id.button)
+        button.setOnClickListener(View.OnClickListener {
+
+        })*/
+
         var ed1 : EditText = findViewById(R.id.editTextNumberDecimal)
         var ed2 : EditText = findViewById(R.id.editTextNumberDecimal2)
         var ed3 : EditText = findViewById(R.id.editTextNumberDecimal3)
@@ -17,12 +24,12 @@ class TestActivity2 : AppCompatActivity() {
         var ed5 : EditText = findViewById(R.id.editTextNumberDecimal5)
         var ed6 : EditText = findViewById(R.id.editTextNumberDecimal6)
 
-        var v1 : Float = ed1.text.toString().toFloat()
+        /*var v1 : Float = ed1.text.toString().toFloat()
         var v2 : Float = ed2.text.toString().toFloat()
         var v3 : Float = ed3.text.toString().toFloat()
         var v4 : Float = ed4.text.toString().toFloat()
         var v5 : Float = ed5.text.toString().toFloat()
-        var v6 : Float = ed6.text.toString().toFloat()
+        var v6 : Float = ed6.text.toString().toFloat()*/
 
 
     }

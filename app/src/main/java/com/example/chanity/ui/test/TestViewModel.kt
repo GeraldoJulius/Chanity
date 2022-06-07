@@ -18,11 +18,13 @@ class TestViewModel: ViewModel() {
 
     var testDegree = 0
 
-    private var testDegreeOpn = 0
+    var answerArr = intArrayOf()
+
+    /*private var testDegreeOpn = 0
     private var testDegreeCon = 0
     private var testDegreeExt = 0
     private var testDegreeAgr = 0
-    private var testDegreeNeu = 0
+    private var testDegreeNeu = 0*/
 
     private var index = 0
     private val _questionIndex = MutableLiveData<Int>()
@@ -143,7 +145,7 @@ class TestViewModel: ViewModel() {
         }
         isVeryInaccurate = true
 
-        when (questionNumber) {
+        /*when (questionNumber) {
             in 1..10 -> {
                 testDegreeExt += 1
             }
@@ -159,7 +161,7 @@ class TestViewModel: ViewModel() {
             in 41..50 -> {
                 testDegreeOpn += 1
             }
-        }
+        }*/
     }
 
     fun getInaccurate() {
@@ -171,7 +173,7 @@ class TestViewModel: ViewModel() {
         }
         isInaccurate = true
 
-        when (questionNumber) {
+        /*when (questionNumber) {
             in 1..10 -> {
                 testDegreeExt += 2
             }
@@ -187,7 +189,7 @@ class TestViewModel: ViewModel() {
             in 41..50 -> {
                 testDegreeOpn += 2
             }
-        }
+        }*/
     }
 
     fun getNeutral() {
@@ -199,7 +201,7 @@ class TestViewModel: ViewModel() {
         }
         isNeutral = true
 
-        when (questionNumber) {
+        /*when (questionNumber) {
             in 1..10 -> {
                 testDegreeExt += 3
             }
@@ -215,7 +217,7 @@ class TestViewModel: ViewModel() {
             in 41..50 -> {
                 testDegreeOpn += 3
             }
-        }
+        }*/
     }
 
     fun getAccurate() {
@@ -227,7 +229,7 @@ class TestViewModel: ViewModel() {
         }
         isAccurate = true
 
-        when (questionNumber) {
+        /*when (questionNumber) {
             in 1..10 -> {
                 testDegreeExt += 4
             }
@@ -243,7 +245,7 @@ class TestViewModel: ViewModel() {
             in 41..50 -> {
                 testDegreeOpn += 4
             }
-        }
+        }*/
     }
 
     fun getVeryAccurate() {
@@ -255,7 +257,7 @@ class TestViewModel: ViewModel() {
         }
         isVeryAccurate = true
 
-        when (questionNumber) {
+        /*when (questionNumber) {
             in 1..10 -> {
                 testDegreeExt += 5
             }
@@ -271,7 +273,7 @@ class TestViewModel: ViewModel() {
             in 41..50 -> {
                 testDegreeOpn += 5
             }
-        }
+        }*/
     }
 
     fun onNavigateToResult() {

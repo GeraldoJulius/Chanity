@@ -33,7 +33,7 @@ class EmailEditText : AppCompatEditText {
                     requestFocus()
                 }
                 else if (!emailValid(s.toString())) {
-                    error = context.getString(R.string.emailInvalid)
+                    // error = context.getString(R.string.emailInvalid)
                     requestFocus()
                 }
             }

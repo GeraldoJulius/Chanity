@@ -10,6 +10,7 @@ import android.widget.Toast
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityMainBinding
 import com.example.chanity.ui.test.TestActivity
+import com.example.chanity.ui.test.TestActivity2
 import com.example.chanity.ui.welcome.WelcomeActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -29,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupAction() {
         binding.button.setOnClickListener {
-            startActivity(Intent(this, TestActivity::class.java))
+            startActivity(Intent(this, TestActivity2::class.java))
         }
     }
 

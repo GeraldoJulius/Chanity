@@ -32,7 +32,7 @@ class PasswordEditText: AppCompatEditText {
                     requestFocus()
                 }
                 else if (s.toString().length < 6) {
-                    error = context.getString(R.string.passError)
+                    // error = context.getString(R.string.passError)
                     requestFocus()
                 }
             }
