@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 import com.example.chanity.api.ApiConfig
 import com.example.chanity.model.QuizResponse
 import com.example.chanity.model.QuizResult
+import com.example.chanity.ui.test.TestActivity2
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
