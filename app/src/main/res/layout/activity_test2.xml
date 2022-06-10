@@ -175,14 +175,6 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal5"
             app:layout_constraintVertical_bias="1.0" />
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="136dp"
-            android:layout_height="66dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="271dp"
-            tools:layout_editor_absoluteY="409dp" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
