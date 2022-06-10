@@ -1,4 +1,4 @@
-package com.example.chanity.ui.signup
+package com.example.chanity.signup
 
 import android.content.Intent
 import android.os.Build
@@ -10,7 +10,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivitySignupBinding
-import com.example.chanity.ui.signin.SignInActivity
+import com.example.chanity.signin.SignInActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class SignUpActivity : AppCompatActivity() {

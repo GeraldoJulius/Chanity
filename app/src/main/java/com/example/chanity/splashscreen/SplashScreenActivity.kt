@@ -1,4 +1,4 @@
-package com.example.chanity.ui.splashscreen
+package com.example.chanity.splashscreen
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -8,10 +8,7 @@ import android.os.Looper
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chanity.R
-import com.example.chanity.ui.main.MainActivity
-import com.example.chanity.ui.signup.SignUpActivity
-import com.example.chanity.ui.test.TestActivity2
-import com.example.chanity.ui.welcome.WelcomeActivity
+import com.example.chanity.main.MainActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {
@@ -25,7 +22,7 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this@SplashScreenActivity, TestActivity2::class.java))
+            startActivity(Intent(this@SplashScreenActivity, MainActivity::class.java))
             finish()
         }, 2000)
     }

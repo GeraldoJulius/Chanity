@@ -12,26 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chanity">
         <activity
-            android:name=".ui.test.TestActivity2"
+            android:name="com.example.chanity.result.ResultActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.result.ResultActivity"
+            android:name="com.example.chanity.test.TestActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.test.TestActivity"
-            android:exported="false"
-            android:label="@string/app_name" />
-        <activity
-            android:name=".ui.signin.SignInActivity"
+            android:name="com.example.chanity.signin.SignInActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.signup.SignUpActivity"
+            android:name="com.example.chanity.signup.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.welcome.WelcomeActivity"
+            android:name="com.example.chanity.welcome.WelcomeActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.splashscreen.SplashScreenActivity"
+            android:name="com.example.chanity.splashscreen.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -41,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name="com.example.chanity.main.MainActivity"
             android:exported="true"
             android:label="@string/app_name" />
     </application>

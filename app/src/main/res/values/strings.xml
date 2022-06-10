@@ -5,41 +5,36 @@
     <string name="splash_iv">SplashScreen</string>
     <string name="chanity_iv">Chanity Logo</string>
 
-    // welcome
+    // welcome, regis, login
     <string name="WelcomeTitle">Welcome to Chanity!</string>
     <string name="RegisLogin">Please register or login first.</string>
     <string name="getstarted">Get Started</string>
     <string name="signin">Sign In</string>
-
-    // register login
     <string name="copyright">© 2022 Chanity</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
     <string name="title_signup_page">Ready to create your account?</string>
     <string name="title_login_page">Welcome back!</string>
 
-
     // home
     <string name="home1">Check your personality by taking this test!</string>
     <string name="home2">The Big Five personality test measures the five personality factors that psychologists have determined are core to our personality makeup. The Five Factors of personality consists of:</string>
     <string name="start_test">Start Test</string>
     <string name="ocean_iv">Ocean Image</string>
+    <string name="beginning">You are at the beginning of the application.</string>
 
     // test
-    <string name="test1">Answer each question according to how well it describes you. </string>
-
-    <string name="questionNumber">Question %1$d/50</string>
+    <string name="test1">Answer each question according to how well it describes you.</string>
+    <string name="keterangan" translatable="false">Note:\n1 - Very Inaccurate\n2 - Inaccurate\n3 - Neutral\n4 - Accurate\n5 - Very Accurate</string>
 
     // option menu
     <string name="language">Change Language</string>
     <string name="logout">Log Out</string>
-    <string name="home">Home</string>
     <string name="radio1">Very Inaccurate</string>
     <string name="radio2">Inaccurate</string>
     <string name="radio3">Neutral</string>
     <string name="radio4">Accurate</string>
     <string name="radio5">Very Accurate</string>
-    <string name="result_greeting">Your primary trait is Openness.</string>
     <string name="percentage_tv"><u>Percentage Result</u></string>
     <string name="result_ocean">OCEAN Result</string>
 
@@ -51,6 +46,12 @@
 
     <string name="strengths">Strengths</string>
     <string name="weaknesses">Weaknesses</string>
+
+    <string name="o_result_greeting">Your primary trait is Openness.</string>
+    <string name="c_result_greeting">Your primary trait is Conscientiousness.</string>
+    <string name="e_result_greeting">Your primary trait is Extraversion.</string>
+    <string name="a_result_greeting">Your primary trait is Agreeableness.</string>
+    <string name="n_result_greeting">Your primary trait is Neuroticism.</string>
 
     <string name="o_desc">The sub-traits of openness personality trait are: Imaginative, adventurous, have high artistic interests, and intelligent.</string>
     <string name="o_strength">Easy to collaborate with.\nCreative.\nLove to learn something new.\nOpen to diversity.</string>
@@ -84,61 +85,61 @@
     <string name="yesbutton">Yes</string>
     <string name="nobutton">No</string>
     <string name="okay">Okay! Keep going!</string>
+    <string name="getResult">Get Result</string>
 
-    //dummyQuestion
+    // questions
     <string name="question1">I am the life of the party.</string>
-    <string name="question2">I feel little concern for others.</string>
-    <string name="question3">I am always prepared.</string>
-    <string name="question4">I get stressed out easily.</string>
-    <string name="question5">I have a rich vocabulary.</string>
-    <string name="question6">I dont talk a lot.</string>
-    <string name="question7">I am interested in people.</string>
-    <string name="question8">I leave my belongings around.</string>
-    <string name="question9">I am relaxed most of the time.</string>
-    <string name="question10">I have a difficulty understanding abstract ideas.</string>
-    <string name="question11">I feel comfortable around people.</string>
-    <string name="question12">I insult people.</string>
-    <string name="question13">I pay attention to details.</string>
-    <string name="question14">I worry about things.</string>
-    <string name="question15">I have a vivid imagination.</string>
-    <string name="question16">I keep in the background.</string>
-    <string name="question17">I sympathize with others feeling.</string>
-    <string name="question18">I make a mess of things.</string>
-    <string name="question19">I seldom feel blue.</string>
-    <string name="question20">I am not interested in abstract ideas.</string>
-    <string name="question21">I start conversations.</string>
-    <string name="question22">I am not interested in other peoples problems.</string>
-    <string name="question23">I get chores done right away.</string>
-    <string name="question24">I am easily disturbed.</string>
-    <string name="question25">I have excellent ideas.</string>
-    <string name="question26">I have little to say.</string>
-    <string name="question27">I have a soft heart.</string>
-    <string name="question28">I often forget to put things back in their proper place.</string>
-    <string name="question29">I get upset easily.</string>
-    <string name="question30">I do not have a good imagination.</string>
-    <string name="question31">I talk to a lot of different people at parties.</string>
-    <string name="question32">I am not really interested in others.</string>
-    <string name="question33">I like order.</string>
-    <string name="question34">I change my mood a lot.</string>
-    <string name="question35">I am quick to understand things.</string>
-    <string name="question36">I dont like to draw attention to myself</string>
-    <string name="question37">I take time out for others.</string>
+    <string name="question2">I dont talk a lot.</string>
+    <string name="question3">I feel comfortable around people.</string>
+    <string name="question4"> I keep in the background.</string>
+    <string name="question5">I start conversations.</string>
+    <string name="question6">I have little to say.</string>
+    <string name="question7">I talk to a lot of different people at parties.</string>
+    <string name="question8">I dont like to draw attention to myself.</string>
+    <string name="question9">I dont mind being the center of attention.</string>
+    <string name="question10">I am quiet around strangers.</string>
+    <string name="question11">I get stressed out easily.</string>
+    <string name="question12">I am relaxed most of the time.</string>
+    <string name="question13">I worry about things.</string>
+    <string name="question14">I seldom feel blue.</string>
+    <string name="question15">I am easily disturbed.</string>
+    <string name="question16">I get upset easily.</string>
+    <string name="question17">I change my mood a lot.</string>
+    <string name="question18">I have frequent mood swings.</string>
+    <string name="question19">I get irritated easily.</string>
+    <string name="question20">I often feel blue.</string>
+    <string name="question21">I feel little concern for others.</string>
+    <string name="question22">I am interested in people.</string>
+    <string name="question23">I insult people.</string>
+    <string name="question24">I sympathize with others feeling.</string>
+    <string name="question25">I am not interested in other peoples problems.</string>
+    <string name="question26">I have a soft heart.</string>
+    <string name="question27">I am not really interested in others.</string>
+    <string name="question28">I take time out for others.</string>
+    <string name="question29">I feel others emotions.</string>
+    <string name="question30">I make people feel at ease.</string>
+    <string name="question31">I am always prepared.</string>
+    <string name="question32">I leave my belongings around.</string>
+    <string name="question33">I pay attention to details.</string>
+    <string name="question34">I make a mess of things.</string>
+    <string name="question35">I get chores done right away.</string>
+    <string name="question36">I often forget to put things back in their proper place.</string>
+    <string name="question37">I like order.</string>
     <string name="question38">I shirk my duties.</string>
-    <string name="question39">I have frequent mood swings.</string>
-    <string name="question40">I use difficult words.</string>
-    <string name="question41">I dont mind being the center of attention.</string>
-    <string name="question42">I feel others emotions.</string>
-    <string name="question43">I follow a schedule.</string>
-    <string name="question44">I get irritated easily.</string>
-    <string name="question45">I spend time reflecting on things.</string>
-    <string name="question46">I am quiet around strangers.</string>
-    <string name="question47">I make people feel at ease.</string>
-    <string name="question48">I am exacting in my work.</string>
-    <string name="question49">I often feel blue.</string>
+    <string name="question39">I follow a schedule.</string>
+    <string name="question40">I am exacting in my work.</string>
+    <string name="question41">I have a rich vocabulary.</string>
+    <string name="question42">I have a difficulty understanding abstract ideas.</string>
+    <string name="question43">I have a vivid imagination.</string>
+    <string name="question44">I am not interested in abstract ideas.</string>
+    <string name="question45">I have excellent ideas.</string>
+    <string name="question46">I do not have a good imagination.</string>
+    <string name="question47">I am quick to understand things.</string>
+    <string name="question48">I use difficult words.</string>
+    <string name="question49">I spend time reflecting on things.</string>
     <string name="question50">I am full of ideas.</string>
 
-    //dummyResult
-
+    // dummyResult
     <string name="index0E" translatable="false">73,4%</string>
     <string name="index0N" translatable="false">71,0%</string>
     <string name="index0A" translatable="false">79,2%</string>
@@ -168,13 +169,5 @@
     <string name="index4A" translatable="false">83,4%</string>
     <string name="index4C" translatable="false">75,4%</string>
     <string name="index4O" translatable="false">81,8%</string>
-
-
-
-
-    <string name="beginning">You are at the beginning of the application.</string>
-    <string name="keterangan" translatable="false">Note:\n1 - Very Inaccurate\n2 - Inaccurate\n3 - Neutral\n4 - Accurate\n5 - Very Accurate</string>
-
-
 
 </resources>

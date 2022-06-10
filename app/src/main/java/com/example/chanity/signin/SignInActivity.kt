@@ -1,4 +1,4 @@
-package com.example.chanity.ui.signin
+package com.example.chanity.signin
 
 import android.content.Intent
 import android.os.Build
@@ -9,7 +9,7 @@ import android.view.WindowManager
 import android.widget.Toast
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivitySigninBinding
-import com.example.chanity.ui.main.MainActivity
+import com.example.chanity.main.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class SignInActivity : AppCompatActivity() {

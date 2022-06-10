@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
-    tools:context=".ui.main.MainActivity">
+    tools:context=".main.MainActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -88,8 +88,5 @@
                 app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </com.google.android.material.card.MaterialCardView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

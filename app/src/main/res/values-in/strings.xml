@@ -5,41 +5,36 @@
     <string name="splash_iv">SplashScreen</string>
     <string name="chanity_iv">Chanity Logo</string>
 
-    // welcome
+    // welcome, regis, login
     <string name="WelcomeTitle">Selamat datang di Chanity!</string>
     <string name="RegisLogin">Mohon buat akun atau masuk dahulu.</string>
     <string name="getstarted">Buat akun</string>
     <string name="signin">Masuk</string>
-
-    // register login
     <string name="copyright">© 2022 Chanity</string>
     <string name="password">Kata Sandi</string>
     <string name="email">Email</string>
     <string name="title_signup_page">Siap membuat akunmu?</string>
     <string name="title_login_page">Selamat datang kembali!</string>
 
-
     // home
     <string name="home1">Cek kepribadian anda dengan mengambil tes ini!</string>
     <string name="home2">Tes kepribadian Big Five mengukur lima faktor kepribadian yang telah ditentukan oleh psikolog sebagai inti dari kepribadian manusia. Lima faktor kepribadian tersebut antara lain:</string>
     <string name="start_test">Mulai Tes</string>
     <string name="ocean_iv">Ocean Image</string>
+    <string name="beginning">Anda berada di awal aplikasi.</string>
 
     // test
-    <string name="test1">Jawab setiap pertanyaan berdasarkan seberapa cocok itu mendeskripsikan diri anda. </string>
-
-    <string name="questionNumber">Pertanyaan %1$d/50</string>
+    <string name="test1">Jawab setiap pertanyaan berdasarkan seberapa cocok itu mendeskripsikan diri anda.</string>
+    <string name="keterangan" translatable="false">Note:\n1 - Sangat tidak tepat\n2 - Tidak tepat\n3 - Netral\n4 - Tepat\n5 - Sangat Tepat</string>
 
     // option menu
     <string name="language">Ganti Bahasa</string>
     <string name="logout">Keluar</string>
-    <string name="home">Home</string>
     <string name="radio1">Sangat tidak tepat</string>
     <string name="radio2">Tidak tepat</string>
     <string name="radio3">Netral</string>
     <string name="radio4">Tepat</string>
     <string name="radio5">Sangat Tepat</string>
-    <string name="result_greeting">Kepribadian utama anda adalah Openness.</string>
     <string name="percentage_tv"><u>Hasil Persentase</u></string>
     <string name="result_ocean">OCEAN Result</string>
 
@@ -51,6 +46,12 @@
 
     <string name="strengths">Kelebihan</string>
     <string name="weaknesses">Kekurangan</string>
+
+    <string name="o_result_greeting">Kepribadian utama anda adalah Openness.</string>
+    <string name="c_result_greeting">Kepribadian utama anda adalah Conscientiousness.</string>
+    <string name="e_result_greeting">Kepribadian utama anda adalah Extraversion.</string>
+    <string name="a_result_greeting">Kepribadian utama anda adalah Agreeableness.</string>
+    <string name="n_result_greeting">Kepribadian utama anda adalah Neuroticism.</string>
 
     <string name="o_desc">Karakteristik dari kepribadian openness adalah: Imajinatif, menyukai petualangan, mempunyai minat artistik yang tinggi dan intelijen.</string>
     <string name="o_strength">Mudah diajak kolaborasi.\nKreatif.\nSuka mempelajari hal baru.\nTerbuka terhadap keberagaman.</string>
@@ -84,59 +85,89 @@
     <string name="yesbutton">Ya</string>
     <string name="nobutton">Tidak</string>
     <string name="okay">Oke! Lanjut terus!</string>
+    <string name="getResult">Hitung Hasil</string>
 
-    //dummyQuestion
-    <string name="question1">question1</string>
-    <string name="question2">question2</string>
-    <string name="question3">question3</string>
-    <string name="question4">question4</string>
-    <string name="question5">question5</string>
-    <string name="question6">question6</string>
-    <string name="question7">question7</string>
-    <string name="question8">question8</string>
-    <string name="question9">question9</string>
-    <string name="question10">question10</string>
-    <string name="question11">question11</string>
-    <string name="question12">question12</string>
-    <string name="question13">question13</string>
-    <string name="question14">question14</string>
-    <string name="question15">question15</string>
-    <string name="question16">question16</string>
-    <string name="question17">question17</string>
-    <string name="question18">question18</string>
-    <string name="question19">question19</string>
-    <string name="question20">question20</string>
-    <string name="question21">question21</string>
-    <string name="question22">question22</string>
-    <string name="question23">question23</string>
-    <string name="question24">question24</string>
-    <string name="question25">question25</string>
-    <string name="question26">question26</string>
-    <string name="question27">question27</string>
-    <string name="question28">question28</string>
-    <string name="question29">question29</string>
-    <string name="question30">question30</string>
-    <string name="question31">question31</string>
-    <string name="question32">question32</string>
-    <string name="question33">question33</string>
-    <string name="question34">question34</string>
-    <string name="question35">question35</string>
-    <string name="question36">question36</string>
-    <string name="question37">question37</string>
-    <string name="question38">question38</string>
-    <string name="question39">question39</string>
-    <string name="question40">question40</string>
-    <string name="question41">question41</string>
-    <string name="question42">question42</string>
-    <string name="question43">question43</string>
-    <string name="question44">question44</string>
-    <string name="question45">question45</string>
-    <string name="question46">question46</string>
-    <string name="question47">question47</string>
-    <string name="question48">question48</string>
-    <string name="question49">question49</string>
-    <string name="question50">question50</string>
+    // questions
+    <string name="question1">Akulah kehidupan pesta.</string>
+    <string name="question2">Aku tidak banyak bicara.</string>
+    <string name="question3">Aku merasa nyaman di sekitar orang lain.</string>
+    <string name="question4">Aku tetap berada di belakang latar.</string>
+    <string name="question5">Aku memulai percakapan.</string>
+    <string name="question6">Aku memiliki sedikit hal untuk dikatakan.</string>
+    <string name="question7">Aku berbicara dengan banyak orang yang berbeda di pesta.</string>
+    <string name="question8">Aku tidak suka menarik perhatian pada diriku sendiri.</string>
+    <string name="question9">Aku tidak keberatan menjadi pusat perhatian.</string>
+    <string name="question10">Aku diam saat berada di sekitar orang asing.</string>
+    <string name="question11">Aku mudah stres.</string>
+    <string name="question12">Aku santai di sebagian besar waktu.</string>
+    <string name="question13">Aku khawatir tentang hal-hal.</string>
+    <string name="question14">Aku jarang merasa sedih.</string>
+    <string name="question15">Aku mudah terganggu.</string>
+    <string name="question16">Aku mudah marah.</string>
+    <string name="question17">Aku sering mengubah suasana hatiku.</string>
+    <string name="question18">Suasana hatiku sering berubah-ubah.</string>
+    <string name="question19">Aku mudah kesal.</string>
+    <string name="question20">Aku sering merasa sedih.</string>
+    <string name="question21">Aku memiliki perhatian yang sedikit pada orang lain.</string>
+    <string name="question22">Aku tertarik pada orang-orang.</string>
+    <string name="question23">Aku menghina orang lain.</string>
+    <string name="question24">Aku bersimpati dengan perasaan orang lain.</string>
+    <string name="question25">Aku tidak tertarik dengan masalah orang lain.</string>
+    <string name="question26">Aku memiliki hati yang lembut.</string>
+    <string name="question27">Aku tidak terlalu tertarik dengan orang lain.</string>
+    <string name="question28">Aku meluangkan waktuku untuk orang lain.</string>
+    <string name="question29">Aku merasakan emosi orang lain.</string>
+    <string name="question30">Aku membuat orang lain merasa nyaman.</string>
+    <string name="question31">Aku selalu siap.</string>
+    <string name="question32">Aku meninggalkan barang-barangku dengan sembarang.</string>
+    <string name="question33">Aku memperhatikan detil sesuatu.</string>
+    <string name="question34">Aku membuat barang berserakan.</string>
+    <string name="question35">Aku menyelesaikan pekerjaan secepatnya.</string>
+    <string name="question36">Aku sering lupa untuk menaruh barang kembali di tempatnya.</string>
+    <string name="question37">Aku suka ketertiban.</string>
+    <string name="question38">Aku mengabaikan tugasku.</string>
+    <string name="question39">Aku mengikuti jadwal.</string>
+    <string name="question40">Aku mudah mengeluh dalam melakukan pekerjaan.</string>
+    <string name="question41">Aku kaya akan kosa kata.</string>
+    <string name="question42">Aku memiliki kesulitan untuk memahami ide-ide abstrak.</string>
+    <string name="question43">Aku punya imajinasi yang jelas.</string>
+    <string name="question44">Aku tidak tertarik pada ide-ide abstrak.</string>
+    <string name="question45">Aku memiliki ide yang sangat baik.</string>
+    <string name="question46">Aku tidak memiliki imajinasi yang baik.</string>
+    <string name="question47">Aku cepat memahami sesuatu.</string>
+    <string name="question48">Aku menggunakan kata-kata yang sulit.</string>
+    <string name="question49">Aku menghabiskan waktu merenungkan banyak hal.</string>
+    <string name="question50">Aku penuh dengan ide.</string>
 
-    <string name="beginning">Anda berada di awal aplikasi.</string>
+    // dummyResult
+    <string name="index0E" translatable="false">73,4%</string>
+    <string name="index0N" translatable="false">71,0%</string>
+    <string name="index0A" translatable="false">79,2%</string>
+    <string name="index0C" translatable="false">59,4%</string>
+    <string name="index0O" translatable="false">79,6%</string>
+
+    <string name="index1E" translatable="false">41,8%</string>
+    <string name="index1N" translatable="false">78,6%</string>
+    <string name="index1A" translatable="false">69,4%</string>
+    <string name="index1C" translatable="false">58,0%</string>
+    <string name="index1O" translatable="false">74,6%</string>
+
+    <string name="index2E" translatable="false">51,0%</string>
+    <string name="index2N" translatable="false">48,4%</string>
+    <string name="index2A" translatable="false">58,0%</string>
+    <string name="index2C" translatable="false">64,2%</string>
+    <string name="index2O" translatable="false">74,0%</string>
+
+    <string name="index3E" translatable="false">49,8%</string>
+    <string name="index3N" translatable="false">61,0%</string>
+    <string name="index3A" translatable="false">81,4%</string>
+    <string name="index3C" translatable="false">77,8%</string>
+    <string name="index3O" translatable="false">76,2%</string>
+
+    <string name="index4E" translatable="false">77,0%</string>
+    <string name="index4N" translatable="false">44,0%</string>
+    <string name="index4A" translatable="false">83,4%</string>
+    <string name="index4C" translatable="false">75,4%</string>
+    <string name="index4O" translatable="false">81,8%</string>
 
 </resources>

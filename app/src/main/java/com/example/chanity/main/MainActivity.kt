@@ -1,4 +1,4 @@
-package com.example.chanity.ui.main
+package com.example.chanity.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,9 +9,8 @@ import android.view.MenuItem
 import android.widget.Toast
 import com.example.chanity.R
 import com.example.chanity.databinding.ActivityMainBinding
-import com.example.chanity.ui.test.TestActivity
-import com.example.chanity.ui.test.TestActivity2
-import com.example.chanity.ui.welcome.WelcomeActivity
+import com.example.chanity.test.TestActivity
+import com.example.chanity.welcome.WelcomeActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -30,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupAction() {
         binding.button.setOnClickListener {
-            startActivity(Intent(this, TestActivity2::class.java))
+            startActivity(Intent(this, TestActivity::class.java))
         }
     }
 
