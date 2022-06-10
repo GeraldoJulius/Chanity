@@ -137,7 +137,44 @@
     <string name="question49">I often feel blue.</string>
     <string name="question50">I am full of ideas.</string>
 
+    //dummyResult
+
+    <string name="index0E" translatable="false">73,4%</string>
+    <string name="index0N" translatable="false">71,0%</string>
+    <string name="index0A" translatable="false">79,2%</string>
+    <string name="index0C" translatable="false">59,4%</string>
+    <string name="index0O" translatable="false">79,6%</string>
+
+    <string name="index1E" translatable="false">41,8%</string>
+    <string name="index1N" translatable="false">78,6%</string>
+    <string name="index1A" translatable="false">69,4%</string>
+    <string name="index1C" translatable="false">58,0%</string>
+    <string name="index1O" translatable="false">74,6%</string>
+
+    <string name="index2E" translatable="false">51,0%</string>
+    <string name="index2N" translatable="false">48,4%</string>
+    <string name="index2A" translatable="false">58,0%</string>
+    <string name="index2C" translatable="false">64,2%</string>
+    <string name="index2O" translatable="false">74,0%</string>
+
+    <string name="index3E" translatable="false">49,8%</string>
+    <string name="index3N" translatable="false">61,0%</string>
+    <string name="index3A" translatable="false">81,4%</string>
+    <string name="index3C" translatable="false">77,8%</string>
+    <string name="index3O" translatable="false">76,2%</string>
+
+    <string name="index4E" translatable="false">77,0%</string>
+    <string name="index4N" translatable="false">44,0%</string>
+    <string name="index4A" translatable="false">83,4%</string>
+    <string name="index4C" translatable="false">75,4%</string>
+    <string name="index4O" translatable="false">81,8%</string>
+
+
+
+
     <string name="beginning">You are at the beginning of the application.</string>
-    <string name="keterangan">Note:\n1 - Very Inaccurate\n2 - Inaccurate\n3 - Neutral\n4 - Accurate\n5 - Very Accurate</string>
+    <string name="keterangan" translatable="false">Note:\n1 - Very Inaccurate\n2 - Inaccurate\n3 - Neutral\n4 - Accurate\n5 - Very Accurate</string>
+
+
 
 </resources>
