@@ -79,9 +79,7 @@ $ git clone https://github.com/GeraldoJulius/Chanity.git
 # Chanity-BangkitCapstone-CloudComputing
 
 ## Firebase
-Link: https://console.firebase.google.com/u/1/project/chanityproject/overview
 ![Firebase](https://user-images.githubusercontent.com/105622910/173275720-4beaa453-c8c3-4628-b39b-4a139f94c326.jpg)
 
 ## Authentication
-Link: https://console.firebase.google.com/u/1/project/chanityproject/authentication/users
 ![Authentication](https://user-images.githubusercontent.com/105622910/173275783-58b266b2-4ac1-4462-ba2a-dde1ee5a8313.jpg)
